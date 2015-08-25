@@ -1,0 +1,813 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"r",
+				"removeClass"
+			],
+			[
+				"fade",
+				"fadeOut"
+			],
+			[
+				"fa",
+				"fadeOut"
+			],
+			[
+				"l",
+				"left"
+			],
+			[
+				"sopa",
+				"sopas"
+			],
+			[
+				"AL",
+				"alt	Attr"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"co",
+				"coord"
+			],
+			[
+				"it",
+				"item_"
+			],
+			[
+				"value",
+				"value_sv"
+			],
+			[
+				"g",
+				"getItem"
+			],
+			[
+				"v",
+				"val"
+			],
+			[
+				"p",
+				"position"
+			],
+			[
+				"a",
+				"ajaxrest"
+			],
+			[
+				"m",
+				"margin-top"
+			],
+			[
+				"pla",
+				"plato"
+			],
+			[
+				"zon",
+				"zones"
+			],
+			[
+				"f",
+				"float"
+			],
+			[
+				"dis",
+				"distancias"
+			],
+			[
+				"op",
+				"option	Tag"
+			],
+			[
+				"ta",
+				"target	Attr"
+			],
+			[
+				"s",
+				"stringify"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"nam",
+				"name"
+			],
+			[
+				"pr",
+				"price"
+			],
+			[
+				"na",
+				"Narray"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"cu",
+				"cuenta"
+			],
+			[
+				"el",
+				"else"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"getI",
+				"getItem"
+			],
+			[
+				"t",
+				"table"
+			],
+			[
+				"di",
+				"dimension"
+			],
+			[
+				"ge",
+				"getFullLastId"
+			],
+			[
+				"fec",
+				"felicitaciones"
+			],
+			[
+				"al",
+				"alert"
+			],
+			[
+				"get",
+				"getPos"
+			],
+			[
+				"va",
+				"valor"
+			],
+			[
+				"nd",
+				"ndish"
+			],
+			[
+				"name",
+				"nameDish"
+			],
+			[
+				"ti",
+				"tipo"
+			],
+			[
+				"rem",
+				"removeItem"
+			],
+			[
+				"st",
+				"stringify"
+			],
+			[
+				"set",
+				"setItem"
+			],
+			[
+				"dish",
+				"dishes"
+			],
+			[
+				"plat",
+				"plato"
+			],
+			[
+				"le",
+				"length"
+			],
+			[
+				"local",
+				"localStorage"
+			],
+			[
+				"bo",
+				"bottom"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"in",
+				"input"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"cl",
+				"clear"
+			],
+			[
+				"re",
+				"return"
+			],
+			[
+				"on",
+				"onclick	Attr"
+			],
+			[
+				"at",
+				"attr"
+			],
+			[
+				"de",
+				"detalle_"
+			],
+			[
+				"termin",
+				"terminos"
+			],
+			[
+				"nmae",
+				"name_b"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "www/js/index.js",
+			"settings":
+			{
+				"buffer_size": 2421,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Snippet: ",
+				"Snippet: getAllVars"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"i",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: re",
+				"Snippet: readFolders"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 512.0
+	},
+	"console":
+	{
+		"height": 343.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) ",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/Movilidad/CasaMotor",
+		"/D/Movilidad/CasaMotor/www",
+		"/D/Movilidad/CasaMotor/www/js"
+	],
+	"file_history":
+	[
+		"/D/Movilidad/CasaMotor/www/config.xml",
+		"/D/Movilidad/BuffetExpressPhoneGap/www/config.xml",
+		"/D/Movilidad/CasaMotor/www/js/scrolling-nav.js",
+		"/D/Movilidad/CasaMotor/www/admin.html",
+		"/D/Movilidad/CasaMotor/www/js/index.js",
+		"/D/Movilidad/CasaMotor/www/js/jquery.js",
+		"/D/Movilidad/BarcodeDemo-master/js/index.js",
+		"/D/Movilidad/BarcodeDemo-master/config.xml",
+		"/D/Movilidad/CasaMotor/www/index.html",
+		"/D/Movilidad/CasaMotor/www/spec.html",
+		"/C/wamp/www/certificarautomotores/modules/js/certifieds.js",
+		"/C/wamp/www/certificarautomotores/modules/js/tramits.js",
+		"/C/wamp/www/bluehotels/insetur.com/admin/modules/js/reserves.js",
+		"/D/nodejs/workshop/learnyounode/httpclient.js",
+		"/C/Mi Informacion/Programacion/PHP/Plantillas WEB/Administrativas/aries-metro-style-admin-template/HTML/validation.html",
+		"/C/Mi Informacion/Programacion/PHP/Plantillas WEB/Administrativas/Dandelion/grids.html",
+		"/D/nodejs/workshop/learnyounode/readfileasync.js",
+		"/D/nodejs/workshop/learnyounode/getmodule.js",
+		"/D/nodejs/workshop/learnyounode/readfolder.js",
+		"/D/nodejs/workshop/learnyounode/module.js",
+		"/C/Users/odc/Desktop/Nueva carpeta/archivo3.js",
+		"/D/nodejs/workshop/learnyounode/readfilesync.js",
+		"/D/nodejs/workshop/learnyounode/readfile.js",
+		"/D/nodejs/workshop/learnyounode/readfile.txt",
+		"/C/Users/odc/Desktop/Nueva carpeta/archivo.js",
+		"/C/Users/odc/Desktop/Nueva carpeta/sumas.js",
+		"/D/nodejs/workshop/learnyounode/sum.js",
+		"/C/wamp/www/esevial/cea/plugins/fullcalendar/demos/agenda-views.html",
+		"/C/wamp/www/bluehotels/admin/plugins/fullcalendar/demos/json/events.json",
+		"/D/Movilidad/BuffetExpressPhoneGap/cordova/plugins/fetch.json",
+		"/D/Movilidad/BuffetExpressPhoneGap/plugins/fetch.json",
+		"/D/Movilidad/BuffetExpressPhoneGap/www/js/device.js",
+		"/D/Movilidad/BuffetExpressPhoneGap/plugins/cordova-plugin-google-analytics/plugin.xml",
+		"/D/Movilidad/BuffetExpressPhoneGap/plugins/cordova-plugin-google-analytics/README.md",
+		"/D/Movilidad/BuffetExpressPhoneGap/plugins/cordova-plugin-google-analytics/ios/UniversalAnalyticsPlugin.h",
+		"/D/Movilidad/BuffetExpressPhoneGap/plugins/cordova-plugin-google-analytics/ios/GAI.h",
+		"/D/Movilidad/BuffetExpressPhoneGap/plugins/cordova-plugin-google-analytics/ios/GAIDictionaryBuilder.h",
+		"/D/Movilidad/BuffetExpressPhoneGap/plugins/cordova-plugin-google-analytics/ios/GAIEcommerceFields.h",
+		"/D/Movilidad/BuffetExpressPhoneGap/plugins/cordova-plugin-google-analytics/ios/GAIEcommerceProduct.h",
+		"/D/Movilidad/BuffetExpressPhoneGap/plugins/cordova-plugin-google-analytics/ios/GAIEcommercePromotion.h",
+		"/D/Movilidad/BuffetExpressPhoneGap/plugins/cordova-plugin-google-analytics/ios/GAILogger.h",
+		"/D/Movilidad/BuffetExpressPhoneGap/plugins/cordova-plugin-google-analytics/ios/GAITrackedViewController.h",
+		"/D/Movilidad/BuffetExpressPhoneGap/plugins/cordova-plugin-google-analytics/ios/GAITracker.h",
+		"/D/Movilidad/BuffetExpressPhoneGap/plugins/cordova-plugin-google-analytics/ios/UniversalAnalyticsPlugin.m",
+		"/D/wamp/www/esevial/cea/plugins/fullcalendar/fullcalendar.js",
+		"/D/Movilidad/BuffetExpressPhoneGap/www/js/index.js",
+		"/D/Movilidad/BuffetExpressPhoneGap/www/js/main.js",
+		"/C/Users/odc/Downloads/GAPlugin-master/GAPlugin-master/plugin.xml",
+		"/D/Movilidad/BuffetExpressPhoneGap/www/js/load.js",
+		"/D/Movilidad/BuffetExpressPhoneGap/www/load.html",
+		"/D/Movilidad/BuffetExpressPhoneGap/www/index.html",
+		"/D/Movilidad/BuffetExpressPhoneGap/www/js/cordova.js",
+		"/D/wamp/www/dyd/application/js/clientes.js",
+		"/C/Users/odc/Downloads/battatech_excelexport-master/battatech_excelexport-master/src/exampletable.html",
+		"/D/wamp/www/rolformados/docs/Plantilla-  Office_Structure_Site_Template/vinumo/css/style.css",
+		"/D/Movilidad/BuffetExpressPhoneGap/www/js/internal.js",
+		"/D/Movilidad/BuffetExpressPhoneGap/www/test.html",
+		"/D/Movilidad/BuffetExpressPhoneGap/www/js/cordova-2.2.0.js",
+		"/D/Movilidad/BuffetExpressPhoneGap/www/internal.html",
+		"/D/Movilidad/Notification/www/js/index.js",
+		"/D/Movilidad/Notification/www/index.html",
+		"/D/Movilidad/Notification/www/js/app.js",
+		"/D/Movilidad/Notification/www/js/Controllers/NotificationsController.js",
+		"/D/Movilidad/Notification/www/js/Controllers/HomeController.js",
+		"/D/Movilidad/Notification/www/js/Services/NotificationService.js",
+		"/D/Movilidad/BuffetExpressPhoneGap/www/js/NotificationService.js",
+		"/C/Users/odc/Downloads/AngularGap-945adcc640a2745d39a01d0dd8706fe3ceffc60a/www/index.html",
+		"/C/Users/odc/Downloads/AngularGap-945adcc640a2745d39a01d0dd8706fe3ceffc60a/www/js/Controllers/NotificationsController.js",
+		"/C/Users/odc/Downloads/AngularGap-945adcc640a2745d39a01d0dd8706fe3ceffc60a/www/js/Services/NotificationService.js",
+		"/C/Users/odc/Downloads/AngularGap-945adcc640a2745d39a01d0dd8706fe3ceffc60a/www/spec.html",
+		"/D/Movilidad/versionIconosBuffetExpressPhoneGap/config.xml",
+		"/D/Movilidad/BuffetExpressPhoneGap/www/images/fondoslide.jpg",
+		"/D/Movilidad/BuffetExpressPhoneGap/www/cache.manifest",
+		"/D/Movilidad/BuffetExpressPhoneGap/www/css/index.css",
+		"/D/Movilidad/BuffetExpressPhoneGap/www/css/style.css",
+		"/D/Movilidad/BuffetExpressPhoneGap/www/templates/menu.html",
+		"/D/Movilidad/versionIconosBuffetExpressPhoneGap/templates/menu.html",
+		"/D/Movilidad/versionIconosBuffetExpressPhoneGap/css/style.css",
+		"/D/Movilidad/versionIconosBuffetExpressPhoneGap/js/main.js",
+		"/D/Movilidad/BuffetExpressPhoneGap/www/templates/categoria.html",
+		"/D/Movilidad/BuffetExpressPhoneGap/plugins/org.apache.cordova.dialogs/doc/de/index.md",
+		"/D/Movilidad/BuffetExpressPhoneGap/www/images/arroz_load.png",
+		"/C/Users/odc/Downloads/BuffetExpressPhoneGap-54d757bed2927ff622cd05673ba5ebdd24d8f25d/BuffetExpressPhoneGap-54d757bed2927ff622cd05673ba5ebdd24d8f25d/www/config.xml",
+		"/D/Movilidad/BuffetExpressPhoneGap/www/js/Toast.js",
+		"/D/wamp/www/certificarautomotores/modules/js/bills.js",
+		"/D/Movilidad/BuffetExpressPhoneGap/www/js/angular.min.js",
+		"/D/wamp/www/realrisk_argos/composer.json",
+		"/D/Movilidad/BuffetExpressPhoneGap/www/login.html",
+		"/D/Movilidad/BuffetExpressPhoneGap/www/offline.html",
+		"/C/Mi Informacion/Programacion/PHP/Plantillas WEB/Administrativas/aries-metro-style-admin-template/documentation/index.html",
+		"/D/wamp/www/realriskPhonegap/www/config.xml",
+		"/D/wamp/www/esevial/cea/modules/js/tramits.js",
+		"/D/Movilidad/BuffetExpressMensajero/www/js/device.js",
+		"/D/Movilidad/BuffetExpressMensajero/www/config.xml",
+		"/C/Users/odc/AppData/Roaming/npm/node_modules/learnyounode/docs/bl.html",
+		"/D/wamp/www/buffet/REST/domi/js/main.js",
+		"/D/wamp/www/buffet/REST/resources/js/functions.js",
+		"/D/Movilidad/BuffetExpressPhoneGap/www/templates/guia.html",
+		"/D/Movilidad/BuffetExpressPhoneGap/www/templates/pago.html",
+		"/D/Movilidad/BuffetExpressPhoneGap/www/templates/slider.html",
+		"/D/wamp/www/buffetexpress/codeigniter/app/css/style.css",
+		"/D/wamp/www/familymarketingOLD/modules/js/login.js",
+		"/C/Users/odc/Downloads/zerotype/zerotype/contact.html",
+		"/C/Users/odc/Downloads/zerotype/zerotype/index.html",
+		"/C/Users/odc/Downloads/zerotype/zerotype/post.html",
+		"/C/Users/odc/Downloads/zerotype/zerotype/about.html",
+		"/C/Users/odc/Downloads/zerotype/zerotype/news.html",
+		"/C/Users/odc/Downloads/zerotype/zerotype/features.html",
+		"/C/Users/odc/Downloads/Ftp fingerprint@ciaeducon2.com.xml",
+		"/D/wamp/www/rolformados_puertas/js/admin/jquery.js",
+		"/D/Movilidad/BuffetExpressMensajero/www/templates/login.html",
+		"/D/Movilidad/BuffetExpressPhoneGap/www/js/inappbrowser.js",
+		"/D/wamp/www/buffetexpress/codeigniter/app/templates/redes.html",
+		"/D/wamp/www/buffetexpress/codeigniter/app/index.html",
+		"/D/Movilidad/BuffetExpressPhoneGap/plugins/org.apache.cordova.inappbrowser/README.md",
+		"/D/Movilidad/BuffetExpressPhoneGap/plugins/org.apache.cordova.inappbrowser/plugin.xml",
+		"/C/Users/odc/Downloads/Ftp familyma@familymarketing.co.xml",
+		"/D/Movilidad/BuffetExpressMensajero/www/css/index.css",
+		"/D/Movilidad/BuffetExpressMensajero/www/css/style.css",
+		"/D/Movilidad/BuffetExpressMensajero/www/internal.html",
+		"/D/Movilidad/BuffetExpressMensajero/www/js/main.js",
+		"/D/wamp/www/rolformados_puertas/entrada.php",
+		"/C/Mi Informacion/Programacion/PHP/Plantillas WEB/Administrativas/DulceAdmin/HTML/index.html",
+		"/C/Mi Informacion/Programacion/PHP/Plantillas WEB/Administrativas/DulceAdmin/HTML/tables.html",
+		"/C/Users/odc/Desktop/D&D.html",
+		"/C/Users/odc/Desktop/Gloria Arango.html",
+		"/D/Movilidad/BuffetExpressPhoneGap/www/templates/politicas.html",
+		"/D/Movilidad/BuffetExpressPhoneGap/www/js/login.js"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"",
+			"getFullLastId",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"1px;",
+			"Cocina",
+			"Tienda",
+			"GAP",
+			"setItem(\"position",
+			"Ha superado",
+			"tiempo",
+			".menuBar li ul",
+			".menuBar li a",
+			".navbar-default .navbar-nav>li>a",
+			"NotificationService",
+			"Existen",
+			"Plato actual no esta",
+			"confirm",
+			"Existen p",
+			"mainController",
+			"alert",
+			"NotificationService",
+			"mainController",
+			"NotificationService",
+			"mainController",
+			"NotificationService",
+			"mainController",
+			"InAppBrowser.open",
+			"NotificationService",
+			"mainController",
+			"fuera de",
+			"navigator.notification.alert",
+			"fuera de",
+			"setBackground",
+			"mainController",
+			"setBackground",
+			"fondo",
+			"fondo.png",
+			"fondoslide.png",
+			"fondo.png",
+			"fondoslide.png",
+			"mainController",
+			"loading",
+			"imgloading",
+			"mainController",
+			".icodeta .shop span",
+			"=\"+",
+			"#/",
+			"imgCat",
+			"mainController",
+			".icodeta .shop",
+			".icodeta .shop span",
+			"mainController",
+			"navigator.notification.alert",
+			"navigator.notification",
+			"mainController",
+			"avigator.notification.alert",
+			"mainController",
+			"There was",
+			"fuera de",
+			"<feature name=\"Notification\">",
+			"toast",
+			"fuera de",
+			"cordova",
+			"alertDismissed",
+			"onSuccess",
+			"permission.INTERNET",
+			"onSuccess",
+			"Para utili",
+			"Para",
+			"Para usar",
+			"imgCat",
+			"img_load",
+			"click",
+			"setTimer",
+			"categoriaController",
+			"loading",
+			"categoriaController",
+			".menuplatolist .col-md-12 .contimg",
+			"@media",
+			".menuplatolist .col-md-12 .contimg",
+			"@media",
+			"\"dimension\"",
+			"getItem(\"dimension\")",
+			"rand=",
+			".menuplatolist .col-md-12 .contimg",
+			".menuplatolist",
+			"mainController",
+			"menu",
+			"#categoria/ins/",
+			"categoriaController",
+			".menuplatolist",
+			".menuplatolist .col-md-12 .contimg",
+			"toast",
+			"Ir a",
+			"Detectando",
+			"Cargando pr",
+			"Position=",
+			"Detectando",
+			"initialize",
+			"checkZona",
+			"startApp",
+			"Detectando",
+			"Toast",
+			"checkZona",
+			"Detectando",
+			".botones .btn1 img",
+			".vermapa .pedidotar .cont",
+			".vermapa .pedidotar .cont span",
+			".botones .btn1 p, .botones .btn2 p",
+			".botones .btn1",
+			".botones .btn3 span",
+			".menupie ul li.carrito span",
+			"menupie",
+			"960001",
+			".menusup",
+			"           gap:platform=\"ios\"        ",
+			"name=\"android\"",
+			"name=\"android\">",
+			"statusbar",
+			"ios-statusbarstyle",
+			"prerendered-icon",
+			"target-device",
+			"webviewbounce",
+			"\"auto-hide-splash-screen\"",
+			"\"show-splash-screen-spinner\"",
+			"name=\"orientation\"",
+			"feature",
+			"markers",
+			"createMarker",
+			"setMap",
+			"mapaController"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"fondo.jpg",
+			" ",
+			"buffetexpress.com.co",
+			"http://maps.googleapis.",
+			"",
+			"http://webmarket.com.co/buffet/images/",
+			"http://webmarket.com.co/buffet/images/images/",
+			"js/jquery-1.11.1.min.js",
+			"http://localhost/buffetexpress/codeigniter/",
+			"$(\".botones,.contpag,.verplatoico,.pedidotar\").css({\"bottom\":+$(\"li.carrito a img\").height()+\"px\"});",
+			"<b>(extra X \"+ (cant)+\")</b>",
+			"<b>(extra X \"+ (cant - 1)+\")</b>",
+			"$(\".botones,.contpag,.verplatoico,.pedidotar\").css({\"bottom\":$(\"li.carrito a img\").height()+\"px\"});",
+			"getFullLastId",
+			",'+dish+',\\''+tipo+'\\')",
+			">=1",
+			"name+add+",
+			">=1",
+			"name+add+",
+			"",
+			"setImage",
+			"",
+			"$rootScope",
+			"+num+",
+			" style=\"width:100%;\"",
+			"",
+			"style=\"width:10%\"",
+			"",
+			" style=\"width:100%;\"",
+			"\" style=\"width:100%;\"",
+			"style=\"width:100%;\"",
+			"title=\"...\"/>",
+			"/></a>",
+			"src=\"",
+			"RsG",
+			"_RsG"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "www/js/index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2421,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1890,
+								1890
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 606.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 100.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 100.0
+	},
+	"pinned_build_system": "",
+	"project": "casamotor.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 246.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
