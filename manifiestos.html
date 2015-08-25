@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" ng-app="manifiestosApp">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1" />
@@ -24,28 +24,22 @@
   <div id="menu">
     <div class="pure-menu pure-menu-open"> <a class="pure-menu-heading" href="#">CasaMotor</a>
       <ul>
-        <li><a href="manifiesto.html">Escanear Manifiesto</a></li>
-        <li><a href="placa.html" target="_blank">Capturar Placa</a></li>
-        <li><a href="impresion.html" target="_blank">Imprimir</a></li>
+        <li><a href="#Scanner">Escanear</a></li>
+        <li><a href="#Placa">Capturar Placa</a></li>
+        <li><a href="#Impresion">Imprimir</a></li>
       </ul>
     </div>
   </div>
-  <div id="main">
-    <div class="header">
-      <div class="content">
-        <h2 class="content-subhead">Resultado: <span id="resultado"> #ERROR</span></h2>
-      </div>
-      <p><a href="#" onclick="scanear();"><img src="images/codigo_barras.gif" class="img"></a></p>
-      <p>Para iniciar el proceso de validación del manifiesto, click en la imágen.</p>
-    </div>
-  </div>
+<div ng-view></div>
 </div>
-<script src="js/ui.js"></script> 
+<script src="js/ui.js"></script>
+<script src="js/angular.min.js"></script>
+<script src="js/app.js"></script>
 <script type="text/javascript" src="phonegap.js"></script> 
 <script type="text/javascript" src="js/jquery.js"></script> 
 <script type="text/javascript" src="js/index.js"></script> 
 <script type="text/javascript">
             app.initialize();
-          </script>
+ </script>
 </body>
 </html>

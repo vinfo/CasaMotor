@@ -15,7 +15,6 @@ function scanear(){
     cordova.plugins.barcodeScanner.scan(
         function (result) {  
             var codigoQR= result.text;
-            alert(JSON.stringify(result));
             $('#resultado').html(codigoQR);
             $(".content").fadeIn();
         }, 
