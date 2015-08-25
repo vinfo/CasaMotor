@@ -43,21 +43,6 @@ var app = {
 
         // listeningElement.setAttribute('style', 'display:none;');
         // receivedElement.setAttribute('style', 'display:block;');
-        app.scanBarcode();
         console.log('Received Event: ' + id);
-    }
-    // Scan Barcode
-    scanBarcode: function() {
-       cordova.plugins.barcodeScanner.scan(
-          function (result) {
-              alert("We got a barcode\n" +
-                    "Result: " + result.text + "\n" +
-                    "Format: " + result.format + "\n" +
-                    "Cancelled: " + result.cancelled);
-          }, 
-          function (error) {
-              alert("Scanning failed: " + error);
-          }
-       );
     }    
 };
