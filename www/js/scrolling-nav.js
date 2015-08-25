@@ -24,7 +24,7 @@ $(function() {
 });
 function scan() {
     alert("Escanear código");
-    window.plugins.barcodeScanner.scan(function(result) {
+    cordova.plugins.barcodeScanner.scan(function(result) {
         alert("We got a barcode\n" +
           "Result: " + result.text + "\n" +
           "Format: " + result.format); 
