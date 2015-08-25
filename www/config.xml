@@ -31,7 +31,6 @@
 <preference name="android-installLocation" value="auto" />
 <preference name="splash-screen-duration" value="0" />
 <preference name="SplashScreenDelay" value="0" />
-<!-- <preference name="SplashScreen" value="splash" /> -->
 <preference name="AutoHideSplashScreen" value="false" />
 <preference name="show-splash-screen-spinner" value="false" />
 <preference name="auto-hide-splash-screen" value="false" />
