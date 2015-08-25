@@ -27,6 +27,8 @@
     <preference name="exit-on-suspend"            value="true" />          <!-- ios: if set to true, app will terminate when home button is pressed -->
     <preference name="android-minSdkVersion"      value="7" />              <!-- android: MIN SDK version supported on the target device. MAX version is blank by default. -->
     <preference name="android-installLocation"    value="auto" />           <!-- android: app install location. 'auto' will choose. 'internalOnly' is device memory. 'preferExternal' is SDCard. -->
+    <preference name="splash-screen-duration" value="0" />
+    <preference name="SplashScreenDelay" value="0" />
 
       <!-- Define app icon for each platform. -->
     <icon src="icon.png" />
@@ -52,4 +54,5 @@
     <uses-permission android:name="android.permission.FLASHLIGHT" />
         
     <gap:plugin name="com.phonegap.plugins.barcodescanner" version="2.2.0" />
+    <gap:plugin name="org.apache.cordova.splashscreen" version="0.3.3" />
 </widget>

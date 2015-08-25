@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
 				"h",
 				"href	Attr"
 			],
@@ -216,10 +224,6 @@
 				"localStorage"
 			],
 			[
-				"bo",
-				"bottom"
-			],
-			[
 				"fon",
 				"font-weight"
 			],
@@ -275,14 +279,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "www/js/scrolling-nav.js",
-			"settings":
-			{
-				"buffer_size": 1140,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -347,11 +343,39 @@
 	"expanded_folders":
 	[
 		"/D/Movilidad/CasaMotor",
-		"/D/Movilidad/CasaMotor/www",
-		"/D/Movilidad/CasaMotor/www/js"
+		"/D/Movilidad/CasaMotor/views"
 	],
 	"file_history":
 	[
+		"/D/Movilidad/CasaMotor/js/index.js",
+		"/D/Movilidad/CasaMotor/views/scanner.html",
+		"/D/Movilidad/CasaMotor/views/intro.html",
+		"/D/Movilidad/CasaMotor/js/app.js",
+		"/D/Movilidad/CasaMotor/intro.html",
+		"/D/Movilidad/CasaMotor/manifiestos.html",
+		"/D/Movilidad/CasaMotor/index.html",
+		"/D/Movilidad/CasaMotor/views/impresion.html",
+		"/D/Movilidad/CasaMotor/views/camara.html",
+		"/D/Movilidad/CasaMotor/views/scan.html",
+		"/D/Movilidad/CasaMotor/test.html",
+		"/D/Movilidad/CasaMotor/js/angular.min.js",
+		"/D/Movilidad/CasaMotor/app.js",
+		"/D/Movilidad/CasaMotor/js/controllers.js",
+		"/C/Users/odc/Desktop/plunk-nYsORXGahmGOVyNmYWaF/app.js",
+		"/D/Movilidad/CasaMotor/js/main.js",
+		"/D/Movilidad/BuffetExpressPhoneGap/www/js/angular-route.js",
+		"/D/Movilidad/CasaMotor/css/internal.css",
+		"/D/Movilidad/CasaMotor/css/index.css",
+		"/C/Users/odc/Desktop/tesxt/www/css/style.css",
+		"/C/Users/odc/Desktop/tesxt/www/css/mediaelementplayer.min.css",
+		"/D/Movilidad/CasaMotor/config.xml",
+		"/C/Users/odc/Desktop/tesxt/www/config.xml",
+		"/D/Movilidad/CasaMotor/css/layouts/side-menu-old-ie.css",
+		"/D/Movilidad/CasaMotor/css/layouts/side-menu.css",
+		"/D/Movilidad/CasaMotor/css/pure-min.css",
+		"/D/Movilidad/CasaMotor/js/jquery.js",
+		"/D/Movilidad/CasaMotor/js/jquery.min.js",
+		"/C/Users/odc/Desktop/tesxt/www/js/jquery.js",
 		"/D/Movilidad/CasaMotor/www/config.xml",
 		"/D/Movilidad/CasaMotor/www/js/scrolling-nav.js",
 		"/D/Movilidad/CasaMotor/www/admin.html",
@@ -450,36 +474,7 @@
 		"/D/wamp/www/buffet/REST/domi/js/main.js",
 		"/D/wamp/www/buffet/REST/resources/js/functions.js",
 		"/D/Movilidad/BuffetExpressPhoneGap/www/templates/guia.html",
-		"/D/Movilidad/BuffetExpressPhoneGap/www/templates/pago.html",
-		"/D/Movilidad/BuffetExpressPhoneGap/www/templates/slider.html",
-		"/D/wamp/www/buffetexpress/codeigniter/app/css/style.css",
-		"/D/wamp/www/familymarketingOLD/modules/js/login.js",
-		"/C/Users/odc/Downloads/zerotype/zerotype/contact.html",
-		"/C/Users/odc/Downloads/zerotype/zerotype/index.html",
-		"/C/Users/odc/Downloads/zerotype/zerotype/post.html",
-		"/C/Users/odc/Downloads/zerotype/zerotype/about.html",
-		"/C/Users/odc/Downloads/zerotype/zerotype/news.html",
-		"/C/Users/odc/Downloads/zerotype/zerotype/features.html",
-		"/C/Users/odc/Downloads/Ftp fingerprint@ciaeducon2.com.xml",
-		"/D/wamp/www/rolformados_puertas/js/admin/jquery.js",
-		"/D/Movilidad/BuffetExpressMensajero/www/templates/login.html",
-		"/D/Movilidad/BuffetExpressPhoneGap/www/js/inappbrowser.js",
-		"/D/wamp/www/buffetexpress/codeigniter/app/templates/redes.html",
-		"/D/wamp/www/buffetexpress/codeigniter/app/index.html",
-		"/D/Movilidad/BuffetExpressPhoneGap/plugins/org.apache.cordova.inappbrowser/README.md",
-		"/D/Movilidad/BuffetExpressPhoneGap/plugins/org.apache.cordova.inappbrowser/plugin.xml",
-		"/C/Users/odc/Downloads/Ftp familyma@familymarketing.co.xml",
-		"/D/Movilidad/BuffetExpressMensajero/www/css/index.css",
-		"/D/Movilidad/BuffetExpressMensajero/www/css/style.css",
-		"/D/Movilidad/BuffetExpressMensajero/www/internal.html",
-		"/D/Movilidad/BuffetExpressMensajero/www/js/main.js",
-		"/D/wamp/www/rolformados_puertas/entrada.php",
-		"/C/Mi Informacion/Programacion/PHP/Plantillas WEB/Administrativas/DulceAdmin/HTML/index.html",
-		"/C/Mi Informacion/Programacion/PHP/Plantillas WEB/Administrativas/DulceAdmin/HTML/tables.html",
-		"/C/Users/odc/Desktop/D&D.html",
-		"/C/Users/odc/Desktop/Gloria Arango.html",
-		"/D/Movilidad/BuffetExpressPhoneGap/www/templates/politicas.html",
-		"/D/Movilidad/BuffetExpressPhoneGap/www/js/login.js"
+		"/D/Movilidad/BuffetExpressPhoneGap/www/templates/pago.html"
 	],
 	"find":
 	{
@@ -500,6 +495,12 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"AddNewOrder",
+			"#layout.active #menu",
+			"content",
+			"#menu a",
+			".pure-menu-heading",
+			"#menu .pure-menu-selected, #menu .pure-menu-heading",
 			"PG",
 			"PG Build App",
 			"1px;",
@@ -621,13 +622,7 @@
 			"ios-statusbarstyle",
 			"prerendered-icon",
 			"target-device",
-			"webviewbounce",
-			"\"auto-hide-splash-screen\"",
-			"\"show-splash-screen-spinner\"",
-			"name=\"orientation\"",
-			"feature",
-			"markers",
-			"createMarker"
+			"webviewbounce"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -681,42 +676,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "www/js/scrolling-nav.js",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 1140,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								785,
-								785
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 93.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],

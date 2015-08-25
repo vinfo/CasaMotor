@@ -22,4 +22,5 @@ function scanear(){
             notificacion("Ha ocurrido un error al escanear.");
         }
     );
+    return false;
 };
