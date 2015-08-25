@@ -22,10 +22,11 @@ sampleApp.config(['$routeProvider',
 }]);
 
 
-sampleApp.controller('scannerController', function($scope) {
-  
-  $scope.message = 'This is Add new order screen';
-  
+sampleApp.controller('scannerController', function($scope) {  
+    $scope.getScan = function (type) { 
+      scanear();
+      return false;
+    }  
 });
 
 sampleApp.controller('placaController', function($scope) {
