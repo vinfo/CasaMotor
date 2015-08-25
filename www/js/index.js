@@ -37,17 +37,6 @@ var app = {
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {
-       cordova.plugins.barcodeScanner.scan(
-          function (result) {
-              alert("We got a barcode\n" +
-                    "Result: " + result.text + "\n" +
-                    "Format: " + result.format + "\n" +
-                    "Cancelled: " + result.cancelled);
-          }, 
-          function (error) {
-              alert("Scanning failed: " + error);
-          }
-       );
         console.log('Received Event: ' + id);
     }    
 };
