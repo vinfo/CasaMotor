@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1" />
+<meta name="description" content="Una simple aplicación para aprender a usar el Barcode Scanner">
+<title>CasaMotor - Manifiestos</title>
+<link rel="stylesheet" href="css/pure-min.css">
+<!--[if lte IE 8]>
+        <link rel="stylesheet" href="css/layouts/side-menu-old-ie.css">
+        <![endif]-->
+<!--[if gt IE 8]><!-->
+<link rel="stylesheet" href="css/layouts/side-menu.css">
+<!--<![endif]-->
+
+</head>
+<body>
+<div id="layout"> 
+  <!-- Menu toggle --> 
+  <a href="#menu" id="menuLink" class="menu-link"> 
+  <!-- Hamburger icon --> 
+  <span></span> </a>
+  <div id="menu">
+    <div class="pure-menu pure-menu-open"> <a class="pure-menu-heading" href="#">CasaMotor</a>
+      <ul>
+        <li><a href="manifiesto.html">Escanear Manifiesto</a></li>
+        <li><a href="placa.html" target="_blank">Capturar Placa</a></li>
+        <li><a href="impresion.html" target="_blank">Imprimir</a></li>
+      </ul>
+    </div>
+  </div>
+  <div id="main">
+    <div class="header">
+      <h1>CasaMotor - Manifiestos</h1>
+      <div class="content">
+        <h2 class="content-subhead">El resultado es: <span id="resultado"> #ERROR</span> </h2>
+        <p> El Barcode Scanner puede escanar varios tipos de códigos:<br>
+          * QR<br>
+          * DATA_MATRIX<br>
+          * Códigos de barra en distintos formatos<br>
+          * ITF<br>
+        </p>
+      </div>
+      <p><a href="#" onclick="scanear();"><img src="images/codigo_barras.gif"></a></p>
+      <p>Para iniciar el proceso de validación de manifiestos, click en la imágen.</p>
+    </div>
+  </div>
+</div>
+<script src="js/ui.js"></script> 
+<script type="text/javascript" src="phonegap.js"></script> 
+<script type="text/javascript" src="js/jquery.js"></script> 
+<script type="text/javascript" src="js/index.js"></script> 
+<script type="text/javascript">
+            app.initialize();
+          </script>
+</body>
+</html>
