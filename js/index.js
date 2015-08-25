@@ -18,7 +18,7 @@ function scanear(){
             //Guardamos el resultado del código QR o código de barras en una variable
             var codigoQR= result.text;
             //Introducimos esa variable en el campo 
-            $('#resultado').html(codigoQR);
+            $('#resultado').html(codigoQR).fadeIn();
         }, 
         //Si no, pues ejecuta la función error.
         function (error) {
