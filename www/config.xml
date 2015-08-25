@@ -63,6 +63,8 @@
     <gap:plugin name="org.apache.cordova.network-information" />
     <gap:plugin name="org.apache.cordova.splashscreen" />
     <gap:plugin name="com.phonegap.plugins.barcodescanner" version="2.2.0" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
     
 
     <!-- Third party plugins -->
