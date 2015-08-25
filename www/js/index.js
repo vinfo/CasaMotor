@@ -37,12 +37,17 @@ var app = {
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {
-        // var parentElement = document.getElementById(id);
-        // var listeningElement = parentElement.querySelector('.listening');
-        // var receivedElement = parentElement.querySelector('.received');
-
-        // listeningElement.setAttribute('style', 'display:none;');
-        // receivedElement.setAttribute('style', 'display:block;');
+       cordova.plugins.barcodeScanner.scan(
+          function (result) {
+              alert("We got a barcode\n" +
+                    "Result: " + result.text + "\n" +
+                    "Format: " + result.format + "\n" +
+                    "Cancelled: " + result.cancelled);
+          }, 
+          function (error) {
+              alert("Scanning failed: " + error);
+          }
+       );
         console.log('Received Event: ' + id);
     }    
 };
