@@ -18,17 +18,20 @@ $(function() {
         event.preventDefault();
     });
     $('a.scan').bind('click', function(event) {        
-        scan();
+        scanQR();
         event.preventDefault();
     });    
 });
-function scan() {
-    alert("Escanear código");
-    cordova.plugins.barcodeScanner.scan(function(result) {
-        alert("We got a barcode\n" +
-          "Result: " + result.text + "\n" +
-          "Format: " + result.format); 
-    }, function(error) {
-        alert("Scanning failed: " + error);
-    });
+function scanQR(){
+   cordova.plugins.barcodeScanner.scan(
+      function (result) {
+          alert("We got a barcode\n" +
+                "Result: " + result.text + "\n" +
+                "Format: " + result.format + "\n" +
+                "Cancelled: " + result.cancelled);
+      },
+      function (error) {
+          alert("Scanning failed: " + error);
+      }
+   );
 }
