@@ -7,21 +7,9 @@ var app = {
         document.addEventListener('deviceready', this.onDeviceReady, false);
     },
     onDeviceReady: function() {
-      alert(2);
-      navigator.camera.getPicture(onSuccess, onFail, { quality: 50,
-          destinationType: Camera.DestinationType.DATA_URL
-      });
     }   
 };
 
-function onSuccess(imageData) {
-    var image = document.getElementById('logo');
-    image.src = "data:image/jpeg;base64," + imageData;
-}
-
-function onFail(message) {
-    alert('Failed because: ' + message);
-}
 $( document ).ready(function() {
     $( document ).ajaxStart(function() {
       $(".load").show();

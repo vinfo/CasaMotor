@@ -51,10 +51,9 @@ function photo(){
 }
 
 function onSuccess(imageData) {
-    var image = document.getElementById('myImage');
-    image.src = "data:image/jpeg;base64," + imageData;
+    $(".img").attr("src","data:image/jpeg;base64," + imageData) ;
 }
 
 function onFail(message) {
-    alert('Failed because: ' + message);
+    alert('Problemas inicializando la camara: ' + message);
 }
