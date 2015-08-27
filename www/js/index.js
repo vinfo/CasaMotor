@@ -7,6 +7,7 @@ var app = {
         document.addEventListener('deviceready', this.onDeviceReady, false);
     },
     onDeviceReady: function() {
+      alert(2);
       navigator.camera.getPicture(onSuccess, onFail, { quality: 50,
           destinationType: Camera.DestinationType.DATA_URL
       });
@@ -14,7 +15,7 @@ var app = {
 };
 
 function onSuccess(imageData) {
-    var image = document.getElementById('myImage');
+    var image = document.getElementById('logo');
     image.src = "data:image/jpeg;base64," + imageData;
 }
 
