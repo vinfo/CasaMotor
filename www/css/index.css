@@ -343,7 +343,7 @@ body a:hover{
 /*--social--*/
 /*--account--*/
 .account{
-	padding:2.5em 0px;
+	padding:1em 0px;
 	background:#fff;
 	text-align:center;
 	border-radius: 5px;
@@ -399,10 +399,13 @@ body a:hover{
 .sign i.psd{
 	background: url(../images/lock.png)no-repeat;
 }
+.sign i.config{
+	background: url(../images/config.png)no-repeat;
+}
 .password{
 	margin-top:5% !important;
 }
-.password form input[type=submit] {
+.btn_submit {
 	color: #fff;
 	padding: 13px 0px;
 	font-size: 16px;
@@ -418,7 +421,7 @@ body a:hover{
 	-moz-border-radius: 5px;
 	-ms-border-radius: 5px;
 }
-.password form input[type=submit]:hover{
+.btn_submit:hover{
 	background: #82ca9c;
 	transition: 0.5s all ease;
 	-webkit-transition: 0.5s all ease;
@@ -509,7 +512,7 @@ body a:hover{
 /*--photo--*/
 /*--here--*/
 .here{
-	margin-top: 15%;
+	margin-top:5%;
 	background: #fff;
 	border-radius: 5px;
 	-webkit-border-radius: 5px;
@@ -773,7 +776,7 @@ li.subitem1 a:hover  span.s4{
 /*--content-bottom--*/
 /*--footer--*/
 .footer{
-	margin-top:7%;
+	margin-top:2%;
 	text-align:center;
 }
 .footer p{
@@ -1224,7 +1227,7 @@ li.subitem1 a {
 	font-size: 14px;
 }
 .footer {
-	margin-top: 9%;
+	margin-top: 5%;
 }
 .forgot {
 	margin-top: 8%;
@@ -1402,3 +1405,19 @@ li.subitem1 a {
 }
 }
 /*--media-quaries-end-here--*/
+.pass,.divconfig{
+	display: none;
+}
+#logo img {
+   max-width: 100%;
+   height: auto !important;
+}
+.msg{
+	color:#B81F24;
+	display: none;
+}
+.load{
+	clear: right;
+	padding: 2px;
+	display: none;
+}

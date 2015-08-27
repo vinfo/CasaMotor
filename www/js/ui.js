@@ -25,12 +25,11 @@
 
     menuLink.onclick = function (e) {
         var active = 'active';
-        alert(2);
 
         e.preventDefault();
         toggleClass(layout, active);
         toggleClass(menu, active);
-        toggleClass(menuLink, active);
+        toggleClass(menuLink, active);        
     };
 
 }(this, this.document));

@@ -1,61 +1,57 @@
 <!DOCTYPE html>
 <html>
-   <head>
-   <title>CasaMotor - Manifiestos</title>
-   <meta name="viewport" content="width=device-width, initial-scale=1">
-   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-   <meta name="keywords" content="Manifiestos,gasolina,barras,android" />
-   <style>
-#logo img {
-	max-width: 100%;
-	height: auto !important;
-}
-</style>
-   <script type="application/x-javascript">
-  addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); }
-   </script>
-   <link href="css/bootstrap.min.css" rel='stylesheet' type='text/css' />
-   <link href="css/index.css" rel='stylesheet' type='text/css' />
-   <script src="js/jquery.js"></script>
-   </head>
-   <body>
-<!--content-starts-->
-<div class="content">
-     <div class="container">
+<head>
+ <title>CasaMotor - Manifiestos</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <meta name="keywords" content="Manifiestos,gasolina,barras,android" />
+ <link href="css/bootstrap.min.css" rel='stylesheet' type='text/css' />
+ <link href="css/index.css" rel='stylesheet' type='text/css' />
+</head>
+<body>
+  <!--content-starts-->
+  <div class="content">
+   <div class="container">
     <div class="content-main center">
-         <div class="col-md-12 content-main-right">
-        <div class="here">
-             <div class="here-top"> <img alt="" src="images/logo.jpeg"> </div>
-           </div>
-        <div class="account">
-             <h3>OPERACIÓN MANIFIESTOS</h3>
-             <div class="sign"> <i></i>
-            <input type="text" value="" placeholder="Usuario">
-          </div>
-             <div class="sign password"> <i class="psd"></i>
-            <input type="password" value="" placeholder="Contraseña">
-          </div>
-             <div class="password">
-            <form action="manifiestos.html">
-                 <input type="submit" value="INGRESAR">
-               </form>
-          </div>
-             <div class="forgot"> <a href="#">Recordar contraseña?</a> </div>
-           </div>
+     <div class="col-md-12 content-main-right">
+      <div class="here">
+       <div class="here-top"> <img alt="" src="images/logo.jpeg"> </div>
+     </div>
+     <form action="manifiestos.html">
+      <div class="account">
+       <h3>OPERACIÓN MANIFIESTOS</h3>
+       <em></em>
+       <div class="sign"> <i></i>
+        <input type="text" id="ID_USUARIO" name="ID_USUARIO" value="" placeholder="Usuario">
       </div>
-         <div class="clearfix"></div>
-       </div>
-    <div class="clearfix"></div>
-  </div>
-     <div class="footer">
-    <p>&copy; 2015 Casa Motor. All Rights Reserved</p>
-  </div>
-   </div>
+      <div class="sign pass password"> <i class="psd"></i>
+        <input type="password" id="PASSWORD" name="PASSWORD" value="" placeholder="Contraseña">
+      </div>
+      <div class="password"> 
+        <label class="msg">Usuario no valido!</label>  
+        <div class="load"><img src="images/loading.gif"/></div>
+        <input type="button" value="INGRESAR" class="btn_submit">
+      </div>
+      <div class="forgot"> <a href="#" class="config">Configuración</a> </div>
+      <div class="sign divconfig"> <i class="config"></i>
+        <input type="text" id="IP" name="IP" value="" placeholder="IP Server">
+      </div>     
+    </div>
+  </form>
+</div>
+<div class="clearfix"></div>
+</div>
+<div class="clearfix"></div>
+</div>
+<div class="footer">
+  <p>&copy; 2015 Casa Motor. All Rights Reserved</p>
+</div>
+</div>
 <!--content-end--> 
-<script type="text/javascript" src="cordova.js"></script> 
+<script src="js/jquery.js"></script>
 <script type="text/javascript" src="js/index.js"></script> 
 <script type="text/javascript">
-   app.initialize();
- </script>
+ app.initialize();
+</script>
 </body>
 </html>
