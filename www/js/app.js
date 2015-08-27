@@ -44,5 +44,9 @@ manifiestosApp.controller('placaController', function($scope) {
 manifiestosApp.controller('impresionController', function($scope) {
   $("#layout,#menu").removeClass("active");
   if(localStorage.getItem("MSG"))$("#resultado").html(localStorage.getItem("MSG")).show();
+  $scope.sendPrint = function (type) { 
+    printer();
+    return false;
+  }    
 });
 

@@ -287,55 +287,15 @@
 			"file": "www/js/internal.js",
 			"settings":
 			{
-				"buffer_size": 1549,
+				"buffer_size": 1924,
 				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "www/internal.html",
-			"settings":
-			{
-				"buffer_size": 1503,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "www/js/app.js",
-			"settings":
-			{
-				"buffer_size": 985,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/D/Movilidad/BuffetExpressPhoneGap/www/js/main.js",
-			"settings":
-			{
-				"buffer_size": 61690,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "www/views/scanner.html",
-			"settings":
-			{
-				"buffer_size": 400,
-				"line_ending": "Windows"
 			}
 		},
 		{
 			"file": "www/views/placa.html",
 			"settings":
 			{
-				"buffer_size": 272,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "www/views/impresion.html",
-			"settings":
-			{
-				"buffer_size": 292,
+				"buffer_size": 285,
 				"line_ending": "Windows"
 			}
 		}
@@ -404,25 +364,29 @@
 	[
 		"/D/Movilidad/CasaMotor",
 		"/D/Movilidad/CasaMotor/www",
-		"/D/Movilidad/CasaMotor/www/js",
+		"/D/Movilidad/CasaMotor/www/css/layouts",
 		"/D/Movilidad/CasaMotor/www/views"
 	],
 	"file_history":
 	[
+		"/D/Movilidad/CasaMotor/www/js/index.js",
+		"/D/Movilidad/CasaMotor/www/config.xml",
+		"/D/Movilidad/CasaMotor/www/index.html",
+		"/D/Movilidad/CasaMotor/www/js/internal.js",
+		"/D/Movilidad/CasaMotor/www/js/app.js",
+		"/D/Movilidad/CasaMotor/www/views/placa.html",
+		"/D/Movilidad/CasaMotor/www/views/scanner.html",
+		"/D/Movilidad/CasaMotor/www/css/internal.css",
+		"/D/Movilidad/CasaMotor/www/internal.html",
+		"/D/Movilidad/BuffetExpressPhoneGap/www/js/main.js",
+		"/D/Movilidad/CasaMotor/www/views/impresion.html",
 		"/D/Movilidad/CasaMotor/www/js/angular-route.js",
 		"/D/Movilidad/CasaMotor/www/js/angular-sanitize.min.js",
 		"/C/wamp/www/angelaboteropoeta/application/js/productos.js",
-		"/D/Movilidad/CasaMotor/www/views/scanner.html",
-		"/D/Movilidad/CasaMotor/www/internal.html",
-		"/D/Movilidad/CasaMotor/www/css/internal.css",
 		"/D/Movilidad/CasaMotor/www/css/layouts/side-menu.css",
-		"/D/Movilidad/CasaMotor/www/js/index.js",
-		"/D/Movilidad/CasaMotor/www/index.html",
 		"/C/wamp/www/insetur.com/admin/js/tools.js",
 		"/D/Movilidad/CasaMotor/www/css/index.css",
-		"/D/Movilidad/CasaMotor/www/js/app.js",
 		"/D/Movilidad/CasaMotor/www/manifiestos.html",
-		"/D/Movilidad/CasaMotor/www/js/internal.js",
 		"/D/Movilidad/CasaMotor/www/js/ui.js",
 		"/D/Movilidad/CasaMotor/www/views/intro.html",
 		"/D/Movilidad/CasaMotor/www/config.json",
@@ -457,7 +421,6 @@
 		"/D/Movilidad/CasaMotor/js/jquery.js",
 		"/D/Movilidad/CasaMotor/js/jquery.min.js",
 		"/C/Users/odc/Desktop/tesxt/www/js/jquery.js",
-		"/D/Movilidad/CasaMotor/www/config.xml",
 		"/D/Movilidad/CasaMotor/www/js/scrolling-nav.js",
 		"/D/Movilidad/CasaMotor/www/admin.html",
 		"/D/Movilidad/BuffetExpressPhoneGap/www/config.xml",
@@ -502,7 +465,6 @@
 		"/D/Movilidad/BuffetExpressPhoneGap/plugins/cordova-plugin-google-analytics/ios/UniversalAnalyticsPlugin.m",
 		"/D/wamp/www/esevial/cea/plugins/fullcalendar/fullcalendar.js",
 		"/D/Movilidad/BuffetExpressPhoneGap/www/js/index.js",
-		"/D/Movilidad/BuffetExpressPhoneGap/www/js/main.js",
 		"/C/Users/odc/Downloads/GAPlugin-master/GAPlugin-master/plugin.xml",
 		"/D/Movilidad/BuffetExpressPhoneGap/www/js/load.js",
 		"/D/Movilidad/BuffetExpressPhoneGap/www/load.html",
@@ -534,9 +496,7 @@
 		"/D/Movilidad/BuffetExpressPhoneGap/www/templates/menu.html",
 		"/D/Movilidad/versionIconosBuffetExpressPhoneGap/templates/menu.html",
 		"/D/Movilidad/versionIconosBuffetExpressPhoneGap/css/style.css",
-		"/D/Movilidad/versionIconosBuffetExpressPhoneGap/js/main.js",
-		"/D/Movilidad/BuffetExpressPhoneGap/www/templates/categoria.html",
-		"/D/Movilidad/BuffetExpressPhoneGap/plugins/org.apache.cordova.dialogs/doc/de/index.md"
+		"/D/Movilidad/versionIconosBuffetExpressPhoneGap/js/main.js"
 	],
 	"find":
 	{
@@ -747,15 +707,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1549,
+						"buffer_size": 1924,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1425,
-								1425
+								1906,
+								1906
 							]
 						],
 						"settings":
@@ -763,10 +723,12 @@
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 0.0,
-						"translation.y": 480.0,
+						"translation.x": -0.0,
+						"translation.y": 660.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -774,150 +736,19 @@
 				},
 				{
 					"buffer": 1,
-					"file": "www/internal.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1503,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1079,
-								1079
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 360.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "www/js/app.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 985,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								666,
-								673
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 300.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "/D/Movilidad/BuffetExpressPhoneGap/www/js/main.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 61690,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								113,
-								27
-							]
-						],
-						"settings":
-						{
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "www/views/scanner.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 400,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								211,
-								176
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
 					"file": "www/views/placa.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 272,
+						"buffer_size": 285,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								114,
-								114
+								197,
+								200
 							]
 						],
 						"settings":
@@ -931,38 +762,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "www/views/impresion.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 292,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								114,
-								114
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
