@@ -45,11 +45,10 @@ function scanear(){
     );	
 }
 function photo(){
-  alert(2);
-  navigator.camera.getPicture(onSuccess, onFail, { quality: 50,
-  destinationType: Camera.DestinationType.FILE_URI }); 
+  navigator.camera.getPicture(onSuccess, onFail, { quality: 50 });
 }
 function onSuccess(imageURI) {
+  alert(2);
   $(".img").attr(imageURI);
 }
 
