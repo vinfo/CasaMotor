@@ -36,7 +36,7 @@ manifiestosApp.controller('placaController', function($scope) {
   $("#layout,#menu").removeClass("active");
   if(localStorage.getItem("MSG"))$("#resultado").html(localStorage.getItem("MSG")).show();
   $scope.setPhoto = function (type) { 
-    foto();
+    photo();
     return false;
   }  
 });

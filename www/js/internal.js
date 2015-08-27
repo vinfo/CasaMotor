@@ -44,7 +44,8 @@ function scanear(){
         }
     );	
 }
-function foto(){
+function photo(){
+  alert(2);
   navigator.camera.getPicture(onSuccess, onFail, { quality: 50,
   destinationType: Camera.DestinationType.FILE_URI }); 
 }
@@ -53,5 +54,5 @@ function onSuccess(imageURI) {
 }
 
 function onFail(message) {
-  alert(‘Failed because: ‘ + message);
+  alert("Problemas inicializando camara" + message);
 }
