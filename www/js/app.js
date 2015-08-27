@@ -23,6 +23,7 @@ manifiestosApp.config(['$routeProvider',
 
 
 manifiestosApp.controller('scannerController', function($scope) {
+  $("#layout,#menu").removeClass("active");
   $scope.getScan = function (type) { 
     scanear();
     return false;

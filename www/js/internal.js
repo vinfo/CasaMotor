@@ -32,6 +32,7 @@ function getManifiesto(manifiesto){
        }); 
 }
 function scanear(){
+	alert(2);
     cordova.plugins.barcodeScanner.scan(
         function (result) {  
             var codigoQR= result.text;
