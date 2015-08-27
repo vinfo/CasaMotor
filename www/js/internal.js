@@ -48,7 +48,6 @@ function photo(){
   navigator.camera.getPicture(onSuccess, onFail, { quality: 50 });
 }
 function onSuccess(imageURI) {
-  alert(2);
   $(".img").attr(imageURI);
 }
 
