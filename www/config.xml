@@ -61,4 +61,5 @@
         
     <gap:plugin name="com.phonegap.plugins.barcodescanner" version="2.2.0" />
     <gap:plugin name="org.apache.cordova.splashscreen" version="0.3.3" />
+    <gap:plugin name="org.apache.cordova.camera" version="0.2.9" />
 </widget>
