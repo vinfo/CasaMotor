@@ -11,10 +11,6 @@ var app = {
     }   
 };
 $( document ).ready(function() {
-    $( document ).ajaxStart(function() {
-      $(".load").show();
-    });
-
     if(localStorage.getItem("IP")!=""){
       $("#IP").val(localStorage.getItem("IP"));
       $("em").html(localStorage.getItem("IP"));
@@ -25,7 +21,8 @@ $( document ).ready(function() {
     $(".btn_submit").click(function() {
       var id=$("#ID_USUARIO").val();
       var pass=$("#PASSWORD").val();      
-    if(id!=""){      
+    if(id!=""){
+      $(".load").show();
       if(id!="" && pass!=""){
         $.getJSON( "config.json", function( json ) {          
           if(json.user==id && json.pass==pass){            
@@ -66,7 +63,7 @@ $( document ).ready(function() {
     $("#IP").change(function() {
       localStorage.setItem("IP", $("#IP").val());
       $("#IP").val(localStorage.getItem("IP")).css("background-color","#CFC");
-      location.reload();
+      $(".pass").fadeOut(); 
       $("#PASSWORD").val(''); 
     });
   });

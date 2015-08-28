@@ -13,15 +13,14 @@ function getManifiesto(manifiesto){
            	   localStorage.setItem("MANIFIESTO","");
            	   localStorage.setItem("PLACA","");
            	   localStorage.setItem("VALOR","");
-               localStorage.setItem("MSG","");
 	           if(res.MANIFIESTO){
 	           	var msg='Nit: '+res.NIT;
 	           	msg+='<br/>Placa: '+res.PLACA;
 	           	msg+='<br/>Valor: $'+res.VALOR;
            	   localStorage.setItem("MANIFIESTO",res.MANIFIESTO);
            	   localStorage.setItem("PLACA",res.PLACA);
-           	   localStorage.setItem("VALOR",res.VALOR);	  
-               localStorage.setItem("MSG",msg);
+           	   localStorage.setItem("VALOR",res.VALOR);	           	
+	           	$("#resultado").html(msg).show();
 	           }else{
 	           	$("#resultado").html("No existen manifiestos con este código").show();
 	           }       
@@ -33,6 +32,7 @@ function getManifiesto(manifiesto){
        }); 
 }
 function scanear(){
+	alert(2);
     cordova.plugins.barcodeScanner.scan(
         function (result) {  
             var codigoQR= result.text;
@@ -43,15 +43,4 @@ function scanear(){
             notificacion("Ha ocurrido un error al escanear.");
         }
     );	
-}
-function foto(){
-  navigator.camera.getPicture(onSuccess, onFail, { quality: 50,
-  destinationType: Camera.DestinationType.FILE_URI }); 
-}
-function onSuccess(imageURI) {
-  $(".img").attr(imageURI);
-}
-
-function onFail(message) {
-  alert(‘Failed because: ‘ + message);
 }
