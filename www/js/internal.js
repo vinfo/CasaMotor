@@ -59,15 +59,8 @@ function onFail(message) {
 }
 
 function printer(){
-  cordova.plugins.bixolonPrint.addLine({
-      text       : "Prueba de Impresion",    // text to print
-      textAlign  : "center",    // text align, default left
-      textWidth  : 200,       // text width, default 0
-      textHeight : 100,       // text height, default 0
-      fontType   : "A",    // font type, A or B
-      fontStyle  : "bold"     // font style, bold or underlined or reversed
-  });
-  cordova.plugins.bixolonPrint.cutPaper(successCallback, errorCallback, 4);
+  alert("imprimir");
+  cordova.plugins.bixolonPrint.addLine("hello cordova!");
 }
 function successCallback(imageData) {
     alert("Imprimiendo");
