@@ -60,12 +60,25 @@ function onFail(message) {
 
 function printer(){
   alert("imprimir");
-  cordova.plugins.bixolonPrint.addLine("hello cordova!");
-}
-function successCallback(imageData) {
-    alert("Imprimiendo");
-}
-
-function errorCallback(message) {
-    alert('Problemas inicializando impresora: ' + message);
+  // compose text
+  cordova.plugins.bixolonPrint.addLine({
+      text: "hello cordova!"
+      textAlign: cordova.plugins.bixolonPrint.TextAlign.CENTER,
+      fontStyle: cordova.plugins.bixolonPrint.FontStyle.BOLD
+  });
+  cordova.plugins.bixolonPrint.addHr();
+  cordova.plugins.bixolonPrint.addLine("#@*èòçìàé€");
+  // finally print
+  cordova.plugins.bixolonPrint.printText(
+      function (response) {
+          alert("print success!")
+      },
+      function (error) {
+          alert("print failure: " + error)
+      },
+      {
+          codePage: cordova.plugins.bixolonPrint.CodePage.CP_1252_LATIN1
+      }
+  );
+  alert("Sale");
 }
