@@ -36,6 +36,9 @@ manifiestosApp.controller('placaController', function($scope) {
 
 manifiestosApp.controller('impresionController', function($scope) {
   $("#layout,#menu").removeClass("active");
-  $scope.message = 'This is Show orders screen';
+  $scope.sendPrint = function (type) { 
+    imprimir();
+    return false;
+  }
 });
 
