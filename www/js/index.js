@@ -7,9 +7,9 @@ var app = {
         document.addEventListener('deviceready', this.onDeviceReady, false);
     },
     onDeviceReady: function() {
+        //scanear();
     }   
 };
-
 $( document ).ready(function() {
     $( document ).ajaxStart(function() {
       $(".load").show();

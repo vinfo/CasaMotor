@@ -44,41 +44,14 @@ function scanear(){
         }
     );	
 }
-function photo(){
+function foto(){
   navigator.camera.getPicture(onSuccess, onFail, { quality: 50,
-      destinationType: Camera.DestinationType.DATA_URL
-  });
+  destinationType: Camera.DestinationType.FILE_URI }); 
 }
-
-function onSuccess(imageData) {
-    $(".img").attr("src","data:image/jpeg;base64," + imageData) ;
+function onSuccess(imageURI) {
+  $(".img").attr(imageURI);
 }
 
 function onFail(message) {
-    alert('Problemas inicializando la camara: ' + message);
-}
-
-function printer(){
-  alert("imprimir");
-  // compose text
-  cordova.plugins.bixolonPrint.addLine({
-      text: "hello cordova!"
-      textAlign: cordova.plugins.bixolonPrint.TextAlign.CENTER,
-      fontStyle: cordova.plugins.bixolonPrint.FontStyle.BOLD
-  });
-  cordova.plugins.bixolonPrint.addHr();
-  cordova.plugins.bixolonPrint.addLine("#@*èòçìàé€");
-  // finally print
-  cordova.plugins.bixolonPrint.printText(
-      function (response) {
-          alert("print success!")
-      },
-      function (error) {
-          alert("print failure: " + error)
-      },
-      {
-          codePage: cordova.plugins.bixolonPrint.CodePage.CP_1252_LATIN1
-      }
-  );
-  alert("Sale");
+  alert(‘Failed because: ‘ + message);
 }
