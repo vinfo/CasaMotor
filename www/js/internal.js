@@ -48,17 +48,15 @@
     alert("imprimir");
             try 
             {
-               cordova.plugins.bixolonPrint.printText(
-                  function (response) {
-                      alert("print success!")
-                  },
-                  function (error) {
-                      alert("print failure: " + error)
-                  },
-                  {
-                      codePage: cordova.plugins.bixolonPrint.CodePage.CP_1252_LATIN1
-                  }
-              );
+                cordova.plugins.bixolonPrint.getStatus(function() 
+                    {
+                        var connected = true; //my own local variable
+                        alert('Conectada');
+                    },function() 
+                    {
+                        var connected = false; //my own local variable
+                        alert('Fallo al conectar');
+                    },false);
             }
             catch (err) 
             {   
