@@ -48,15 +48,7 @@
     alert("imprimir");
             try 
             {
-                cordova.plugins.BixolonPrint.getStatus(function() 
-                    {
-                        var connected = true; //my own local variable
-                        alert('Conectada');
-                    },function() 
-                    {
-                        var connected = false; //my own local variable
-                        alert('Fallo al conectar');
-                    },false);
+                cordova.plugins.bixolonPrint.addLine("hello cordova!");
             }
             catch (err) 
             {   
