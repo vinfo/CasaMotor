@@ -48,7 +48,7 @@
     alert("imprimir");
             try 
             {
-                cordova.plugins.bixolonPrint.getStatus(function() 
+                cordova.plugins.BixolonPrint.getStatus(function() 
                     {
                         var connected = true; //my own local variable
                         alert('Conectada');
