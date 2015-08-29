@@ -48,7 +48,17 @@
     alert("imprimir");
             try 
             {
-                cordova.plugins.bixolonPrint.addLine("hello cordova!");
+               cordova.plugins.bixolonPrint.printText(
+                  function (response) {
+                      alert("print success!")
+                  },
+                  function (error) {
+                      alert("print failure: " + error)
+                  },
+                  {
+                      codePage: cordova.plugins.bixolonPrint.CodePage.CP_1252_LATIN1
+                  }
+              );
             }
             catch (err) 
             {   
