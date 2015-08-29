@@ -47,5 +47,5 @@
   function imprimir(){
     alert("imprimir");
     cordova.plugins.bixolonPrint.addLine("hello cordova!");
-    cordova.plugins.bixolonPrint.printText(null, null);
+    cordova.plugins.bixolonPrint.printText();
   }
