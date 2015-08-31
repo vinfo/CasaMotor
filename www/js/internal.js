@@ -45,18 +45,17 @@
   }
 
   function imprimir(){
-    alert("imprimir");
+    alert("imprimir");       
     try 
     {
-      cordova.plugins.bixolonPrint.getStatus(function() 
-      {
-                        var connected = true; //my own local variable
-                        alert('Conectada');
-                      },function() 
-                      {
-                        var connected = false; //my own local variable
-                        alert('Fallo al conectar');
-                      },false);
+      cordova.plugins.bixolonPrint.settings = {
+        lineFeed: 3,
+        formFeed: false,      // enable\disable jump to next position, in black marker and label modes
+        autoConnect: true,    // Android only: if this is set to false displays a dialog box for selecting the printer
+        toastMessage: true,   // Android only: show a printer message
+        separator: '=',
+        codePage: cordova.plugins.bixolonPrint.CodePage.CP_1252_LATIN1 // define code page, default value is set to CP_1252_LATIN1.
+      }; 
     }
     catch (err) 
     {   
