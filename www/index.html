@@ -1,57 +1,36 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
- <title>CasaMotor - Manifiestos</title>
- <meta name="viewport" content="width=device-width, initial-scale=1">
- <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
- <meta name="keywords" content="Manifiestos,gasolina,barras,android" />
- <link href="css/bootstrap.min.css" rel='stylesheet' type='text/css' />
- <link href="css/index.css" rel='stylesheet' type='text/css' />
-</head>
-<body>
-  <!--content-starts-->
-  <div class="content">
-   <div class="container">
-    <div class="content-main center">
-     <div class="col-md-12 content-main-right">
-      <div class="here">
-       <div class="here-top"> <img alt="" src="images/logo.jpeg"> </div>
-     </div>
-     <form action="manifiestos.html">
-      <div class="account">
-       <h3>OPERACIÓN MANIFIESTOS</h3>
-       <em></em>
-       <div class="sign"> <i></i>
-        <input type="text" id="ID_USUARIO" name="ID_USUARIO" value="" placeholder="Usuario">
-      </div>
-      <div class="sign pass password"> <i class="psd"></i>
-        <input type="password" id="PASSWORD" name="PASSWORD" value="" placeholder="Contraseña">
-      </div>
-      <div class="password"> 
-        <label class="msg">Usuario no valido!</label>  
-        <div class="load"><img src="images/loading.gif"/></div>
-        <input type="button" value="INGRESAR" class="btn_submit">
-      </div>
-      <div class="forgot"> <a href="#" class="config">Configuración</a> </div>
-      <div class="sign divconfig"> <i class="config"></i>
-        <input type="text" id="IP" name="IP" value="" placeholder="IP Server">
-      </div>     
-    </div>
-  </form>
-</div>
-<div class="clearfix"></div>
-</div>
-<div class="clearfix"></div>
-</div>
-<div class="footer">
-  <p>&copy; 2015 Casa Motor. All Rights Reserved</p>
-</div>
-</div>
-<!--content-end--> 
-<script src="js/jquery.js"></script>
-<script type="text/javascript" src="js/index.js"></script> 
-<script type="text/javascript">
- app.initialize();
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Documento sin título</title>
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="BixolonPlugin.js"></script>
+<script type="text/javascript">	
+$( document ).ready(function() {
+	alert("Imprimir");
+    if (typeof BX_Printer != 'undefined') {
+
+      BX_Printer.connect("192.168.1.1:9100", "text", function () {
+
+            BX_Printer.alignment = BX_Alignment.BXL_ALIGNMENT_CENTER;
+            BX_Printer.widthSize = BX_WidthSize.BXL_TS_2WIDTH;
+            BX_Printer.heightSize = BX_WidthSize.BXL_TS_3HEIGHT;
+
+            BX_Printer.printText("\r\n\r\nHola Mundo\r\n\r\n", function() {
+
+                BX_Printer.cutPaper(function() {
+                    BX_Printer.disconnect();
+                });
+            });   
+
+        }, function() {
+          console.error("Printer Failure");
+        });
+    }
+  });	
 </script>
+</head>
+
+<body>
 </body>
 </html>
