@@ -46,20 +46,20 @@
 
   function imprimir(){
     alert("imprimir");
-            // try 
-            // {
-            //     cordova.plugins.bixolonPrint.getStatus(function() 
-            //         {
-            //             var connected = true; //my own local variable
-            //             alert('Conectada');
-            //         },function() 
-            //         {
-            //             var connected = false; //my own local variable
-            //             alert('Fallo al conectar');
-            //         },false);
-            // }
-            // catch (err) 
-            // {   
-            //     alert("Error "+err);
-            // }
+    try 
+    {
+      cordova.plugins.bixolonPrint.getStatus(function() 
+      {
+                        var connected = true; //my own local variable
+                        alert('Conectada');
+                      },function() 
+                      {
+                        var connected = false; //my own local variable
+                        alert('Fallo al conectar');
+                      },false);
+    }
+    catch (err) 
+    {   
+      alert("Error "+err);
+    }
   }
