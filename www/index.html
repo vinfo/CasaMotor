@@ -3,34 +3,10 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Documento sin título</title>
-<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-<script type="text/javascript" src="BixolonPlugin.js"></script>
-<script type="text/javascript">	
-$( document ).ready(function() {
-	alert("Imprimir");
-    if (typeof BX_Printer != 'undefined') {
-
-      BX_Printer.connect("192.168.1.1:9100", "text", function () {
-
-            BX_Printer.alignment = BX_Alignment.BXL_ALIGNMENT_CENTER;
-            BX_Printer.widthSize = BX_WidthSize.BXL_TS_2WIDTH;
-            BX_Printer.heightSize = BX_WidthSize.BXL_TS_3HEIGHT;
-
-            BX_Printer.printText("\r\n\r\nHola Mundo\r\n\r\n", function() {
-
-                BX_Printer.cutPaper(function() {
-                    BX_Printer.disconnect();
-                });
-            });   
-
-        }, function() {
-          console.error("Printer Failure");
-        });
-    }
-  });	
-</script>
+<script type="text/javascript" src="bixolonprint.js"></script>
 </head>
 
 <body>
+hola Mundo
 </body>
 </html>
