@@ -32,6 +32,7 @@ var app = {
         document.addEventListener('deviceready', this.onDeviceReady, false);
         refreshButton.addEventListener(TOUCH_START, this.refreshDeviceList, false);
         sendButton.addEventListener(TOUCH_START, this.sendData, false);
+        printButton.addEventListener(TOUCH_START, this.printData, false);
         disconnectButton.addEventListener(TOUCH_START, this.disconnect, false);
         deviceList.addEventListener('touchstart', this.connect, false);
     },
@@ -123,6 +124,9 @@ var app = {
         var data = messageInput.value;
         bluetoothSerial.write(data, success, failure);
     },
+    printData: function(event) { // send data to Arduino
+        alert("Imprimiendo");
+    },    
     disconnect: function(event) {
         bluetoothSerial.disconnect(app.showMainPage, app.onError);
     },
