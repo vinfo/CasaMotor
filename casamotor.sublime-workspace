@@ -284,26 +284,10 @@
 	"buffers":
 	[
 		{
-			"file": "www/js/index.js",
+			"file": "www/PrintPlugin.js",
 			"settings":
 			{
-				"buffer_size": 2099,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/C/Users/odc/Desktop/phonegap-print-plugin-master/phonegap-print-plugin-master/plugin.xml",
-			"settings":
-			{
-				"buffer_size": 1023,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "config.xml",
-			"settings":
-			{
-				"buffer_size": 5377,
+				"buffer_size": 1586,
 				"line_ending": "Unix"
 			}
 		}
@@ -371,16 +355,24 @@
 	"expanded_folders":
 	[
 		"/D/Movilidad/CasaMotor",
-		"/D/Movilidad/CasaMotor/www",
-		"/D/Movilidad/CasaMotor/www/js"
+		"/D/Movilidad/CasaMotor/Example",
+		"/D/Movilidad/CasaMotor/Example/platforms",
+		"/D/Movilidad/CasaMotor/Example/plugins",
+		"/D/Movilidad/CasaMotor/Example/www",
+		"/D/Movilidad/CasaMotor/www"
 	],
 	"file_history":
 	[
+		"/C/Users/odc/Desktop/phonegap-print-plugin-master/phonegap-print-plugin-master/plugin.xml",
+		"/D/Movilidad/CasaMotor/Example/plugins/org.apache.cordova.device/www/device.js",
+		"/D/Movilidad/CasaMotor/Example/platforms/android/assets/www/plugins/org.apache.cordova.device/www/device.js",
+		"/D/Movilidad/CasaMotor/www/PrintPlugin.js",
+		"/D/Movilidad/CasaMotor/Example/www/index.html",
+		"/D/Movilidad/CasaMotor/config.xml",
+		"/D/Movilidad/CasaMotor/www/js/index.js",
 		"/C/Users/odc/Desktop/source/AndroidManifest.xml",
 		"/C/wamp/www/PrintNode-PHP-master/examples/composer.json",
-		"/D/Movilidad/CasaMotor/config.xml",
 		"/C/Users/odc/Desktop/config.xml",
-		"/D/Movilidad/CasaMotor/www/js/index.js",
 		"/D/Movilidad/CasaMotor/www/index.html",
 		"/C/Users/odc/Desktop/CasaMotor/www/config.xml",
 		"/C/Users/odc/Desktop/CasaMotor/config.xml",
@@ -498,12 +490,7 @@
 		"/D/Movilidad/BuffetExpressPhoneGap/www/test.html",
 		"/D/Movilidad/BuffetExpressPhoneGap/www/js/cordova-2.2.0.js",
 		"/D/Movilidad/BuffetExpressPhoneGap/www/internal.html",
-		"/D/Movilidad/Notification/www/js/index.js",
-		"/D/Movilidad/Notification/www/index.html",
-		"/D/Movilidad/Notification/www/js/app.js",
-		"/D/Movilidad/Notification/www/js/Controllers/NotificationsController.js",
-		"/D/Movilidad/Notification/www/js/Controllers/HomeController.js",
-		"/D/Movilidad/Notification/www/js/Services/NotificationService.js"
+		"/D/Movilidad/Notification/www/js/index.js"
 	],
 	"find":
 	{
@@ -524,6 +511,7 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"Error init",
 			".content",
 			".account",
 			".sign i.psd",
@@ -650,8 +638,7 @@
 			".menupie ul li.carrito span",
 			"menupie",
 			"960001",
-			".menusup",
-			"           gap:platform=\"ios\"        "
+			".menusup"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -705,24 +692,24 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "www/js/index.js",
-					"semi_transient": false,
+					"file": "www/PrintPlugin.js",
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 2099,
+						"buffer_size": 1586,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1918,
-								1918
+								0,
+								0
 							]
 						],
 						"settings":
@@ -735,76 +722,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 731.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/C/Users/odc/Desktop/phonegap-print-plugin-master/phonegap-print-plugin-master/plugin.xml",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1023,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								299,
-								299
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/XML/XML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "config.xml",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5377,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4930,
-								4930
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/XML/XML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1560.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
 					"type": "text"
 				}
 			]
