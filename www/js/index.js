@@ -47,6 +47,14 @@
         try 
         {
             alert(1);
+         bluetoothSerial.list(function(devices) {
+            devices.forEach(function(device) {
+                var data = "something \r\n";
+                alert(device.address);
+                bluetoothSerial.connect(device.address, connectSuccess, connectFailure);
+                bluetoothSerial.write(data, success, failure);
+            })
+        }, connectFailure);
             alert(2);
         }
         catch (err) 

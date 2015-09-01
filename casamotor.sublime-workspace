@@ -284,11 +284,27 @@
 	"buffers":
 	[
 		{
+			"file": "www/js/index.js",
+			"settings":
+			{
+				"buffer_size": 2071,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/odc/Desktop/source/AndroidManifest.xml",
+			"settings":
+			{
+				"buffer_size": 1534,
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "config.xml",
 			"settings":
 			{
-				"buffer_size": 5459,
-				"line_ending": "Windows"
+				"buffer_size": 5377,
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -355,19 +371,25 @@
 	"expanded_folders":
 	[
 		"/D/Movilidad/CasaMotor",
-		"/D/Movilidad/CasaMotor/www"
+		"/D/Movilidad/CasaMotor/www",
+		"/D/Movilidad/CasaMotor/www/js"
 	],
 	"file_history":
 	[
-		"/D/Movilidad/CasaMotor/www/config.xml",
-		"/D/Movilidad/CasaMotor/www/js/index.js",
+		"/C/wamp/www/PrintNode-PHP-master/examples/composer.json",
 		"/D/Movilidad/CasaMotor/config.xml",
+		"/C/Users/odc/Desktop/config.xml",
+		"/D/Movilidad/CasaMotor/www/js/index.js",
+		"/D/Movilidad/CasaMotor/www/index.html",
+		"/C/Users/odc/Desktop/CasaMotor/www/config.xml",
+		"/C/Users/odc/Desktop/CasaMotor/config.xml",
+		"/D/Movilidad/CasaMotor/www/js/internal.js",
+		"/D/Movilidad/CasaMotor/www/config.xml",
+		"/D/Movilidad/my-app/config.xml",
 		"/D/Movilidad/CasaMotor/plugins/it.alfonsovinti.cordova.plugins.bixolonprint/src/android/BixolonPrint.java",
 		"/D/Movilidad/CasaMotor/plugins/it.alfonsovinti.cordova.plugins.bixolonprint/www/bixolonprint.js",
-		"/D/Movilidad/CasaMotor/www/index.html",
 		"/D/Movilidad/CasaMotor/www/bixolonprint.js",
 		"/D/Movilidad/CasaMotor/www/bixolonprinter.js",
-		"/D/Movilidad/CasaMotor/www/js/internal.js",
 		"/D/Movilidad/CasaMotor/www/views/impresion.html",
 		"/D/Movilidad/CasaMotor/www/internal.html",
 		"/D/Movilidad/CasaMotor/www/js/bixolonprint.js",
@@ -481,12 +503,7 @@
 		"/D/Movilidad/Notification/www/js/Controllers/NotificationsController.js",
 		"/D/Movilidad/Notification/www/js/Controllers/HomeController.js",
 		"/D/Movilidad/Notification/www/js/Services/NotificationService.js",
-		"/D/Movilidad/BuffetExpressPhoneGap/www/js/NotificationService.js",
-		"/C/Users/odc/Downloads/AngularGap-945adcc640a2745d39a01d0dd8706fe3ceffc60a/www/index.html",
-		"/C/Users/odc/Downloads/AngularGap-945adcc640a2745d39a01d0dd8706fe3ceffc60a/www/js/Controllers/NotificationsController.js",
-		"/C/Users/odc/Downloads/AngularGap-945adcc640a2745d39a01d0dd8706fe3ceffc60a/www/js/Services/NotificationService.js",
-		"/C/Users/odc/Downloads/AngularGap-945adcc640a2745d39a01d0dd8706fe3ceffc60a/www/spec.html",
-		"/D/Movilidad/versionIconosBuffetExpressPhoneGap/config.xml"
+		"/D/Movilidad/BuffetExpressPhoneGap/www/js/NotificationService.js"
 	],
 	"find":
 	{
@@ -688,16 +705,49 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "config.xml",
+					"file": "www/js/index.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5459,
+						"buffer_size": 2071,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1905,
+								1905
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 600.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/Users/odc/Desktop/source/AndroidManifest.xml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1534,
 						"regions":
 						{
 						},
@@ -722,6 +772,39 @@
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "config.xml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5377,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4930,
+								4930
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/XML/XML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1560.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
