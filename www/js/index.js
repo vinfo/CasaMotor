@@ -47,8 +47,26 @@ var app = {
         try 
             {
                 alert(1);
-                cordova.plugins.bixolonPrint.addLine("hello cordova!");
-                cordova.plugins.bixolonPrint.printText();
+                // compose text
+                cordova.plugins.bixolonPrint.addLine({
+                    text: "hello cordova!"
+                    textAlign: cordova.plugins.bixolonPrint.TextAlign.CENTER,
+                    fontStyle: cordova.plugins.bixolonPrint.FontStyle.BOLD
+                });
+                cordova.plugins.bixolonPrint.addHr();
+                cordova.plugins.bixolonPrint.addLine("#@*èòçìàé€");
+                // finally print
+                cordova.plugins.bixolonPrint.printText(
+                    function (response) {
+                        alert("print success!")
+                    },
+                    function (error) {
+                        alert("print failure: " + error)
+                    },
+                    {
+                        codePage: cordova.plugins.bixolonPrint.CodePage.CP_1252_LATIN1
+                    }
+                );
                 alert(2);
             }
             catch (err) 
