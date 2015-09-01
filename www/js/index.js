@@ -46,7 +46,10 @@ var app = {
 
         try 
             {
-              cordova.plugins.bixolonPrint.addLine("hello cordova!");
+                alert(1);
+                cordova.plugins.bixolonPrint.addLine("hello cordova!");
+                cordova.plugins.bixolonPrint.printText();
+                alert(2);
             }
             catch (err) 
             {   
