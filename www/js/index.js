@@ -44,15 +44,26 @@ var app = {
         listeningElement.setAttribute('style', 'display:none;');
         receivedElement.setAttribute('style', 'display:block;');
 
-        cordova.plugins.printer.isAvailable(
-            function (isAvailable) {
-                alert(isAvailable ? 'Service is available' : 'Service NOT available');
-                var page = '<h1>Hello Document</h1>';
-                cordova.plugins.printer.print(page, { name:'Document.html', graystyle:true }, function () {
-                    alert('printing finished or canceled')
-                });
+        // compose text
+        cordova.plugins.bixolonPrint.addLine({
+            text: "hello cordova!"
+            textAlign: cordova.plugins.bixolonPrint.TextAlign.CENTER,
+            fontStyle: cordova.plugins.bixolonPrint.FontStyle.BOLD
+        });
+        cordova.plugins.bixolonPrint.addHr();
+        cordova.plugins.bixolonPrint.addLine("#@*èòçìàé€");
+        // finally print
+        cordova.plugins.bixolonPrint.printText(
+            function (response) {
+                alert("print success!")
+            },
+            function (error) {
+                alert("print failure: " + error)
+            },
+            {
+                codePage: cordova.plugins.bixolonPrint.CodePage.CP_1252_LATIN1
             }
-        );        
+        );       
 
         console.log('Received Event: ' + id);
     }
