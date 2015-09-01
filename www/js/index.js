@@ -47,11 +47,6 @@
         try 
         {
             alert(1);
-            StarIOAdapter.check("TCP:192.168.1.1:9100", function() {
-                alert("The printer is Online and ready");
-            }, function(error) {
-                alert("The was a problem with the printer: " + error);
-            });
             alert(2);
         }
         catch (err) 

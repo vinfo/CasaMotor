@@ -71,7 +71,7 @@
    
 
     <plugin name="cordova-plugin-whitelist" version="1" />
-    <gap:plugin name="com.somidata.cordova.starioadapterprint" version="1.0.1" />
+
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
     <allow-intent href="tel:*" />
