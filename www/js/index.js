@@ -47,6 +47,10 @@ var app = {
         cordova.plugins.printer.isAvailable(
             function (isAvailable) {
                 alert(isAvailable ? 'Service is available' : 'Service NOT available');
+                var page = '<h1>Hello Document</h1>';
+                cordova.plugins.printer.print(page, 'Document.html', function () {
+                    alert('printing finished or canceled')
+                });
             }
         );        
 
