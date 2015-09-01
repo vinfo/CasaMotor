@@ -44,6 +44,12 @@ var app = {
         listeningElement.setAttribute('style', 'display:none;');
         receivedElement.setAttribute('style', 'display:block;');
 
+        cordova.plugins.printer.isAvailable(
+            function (isAvailable) {
+                alert(isAvailable ? 'Service is available' : 'Service NOT available');
+            }
+        );        
+
         console.log('Received Event: ' + id);
     }
 };
