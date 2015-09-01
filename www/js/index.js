@@ -48,7 +48,7 @@ var app = {
             function (isAvailable) {
                 alert(isAvailable ? 'Service is available' : 'Service NOT available');
                 var page = '<h1>Hello Document</h1>';
-                cordova.plugins.printer.print(page, { name:'Document.html', landscape:true, graystyle:true }, function () {
+                cordova.plugins.printer.print(page, { name:'Document.html', graystyle:true }, function () {
                     alert('printing finished or canceled')
                 });
             }
