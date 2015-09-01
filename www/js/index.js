@@ -44,26 +44,31 @@ var app = {
         listeningElement.setAttribute('style', 'display:none;');
         receivedElement.setAttribute('style', 'display:block;');
 
-        // compose text
-        cordova.plugins.bixolonPrint.addLine({
-            text: "hello cordova!"
-            textAlign: cordova.plugins.bixolonPrint.TextAlign.CENTER,
-            fontStyle: cordova.plugins.bixolonPrint.FontStyle.BOLD
-        });
-        cordova.plugins.bixolonPrint.addHr();
-        cordova.plugins.bixolonPrint.addLine("#@*èòçìàé€");
-        // finally print
-        cordova.plugins.bixolonPrint.printText(
-            function (response) {
-                alert("print success!")
-            },
-            function (error) {
-                alert("print failure: " + error)
-            },
-            {
-                codePage: cordova.plugins.bixolonPrint.CodePage.CP_1252_LATIN1
-            }
-        );       
+		try{
+		        // compose text
+		        cordova.plugins.bixolonPrint.addLine({
+		            text: "hello cordova!"
+		            textAlign: cordova.plugins.bixolonPrint.TextAlign.CENTER,
+		            fontStyle: cordova.plugins.bixolonPrint.FontStyle.BOLD
+		        });
+		        cordova.plugins.bixolonPrint.addHr();
+		        cordova.plugins.bixolonPrint.addLine("#@*èòçìàé€");
+		        // finally print
+		        cordova.plugins.bixolonPrint.printText(
+		            function (response) {
+		                alert("print success!")
+		            },
+		            function (error) {
+		                alert("print failure: " + error)
+		            },
+		            {
+		                codePage: cordova.plugins.bixolonPrint.CodePage.CP_1252_LATIN1
+		            }
+		        ); 
+		}catch(err){
+			alert("error"+err);
+		}
+      
 
         console.log('Received Event: ' + id);
     }
