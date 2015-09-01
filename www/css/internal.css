@@ -1,0 +1,18 @@
+.content{
+	padding: 20px 10px;
+	margin-top: 40px;
+	width: 90%;
+}
+.header h2.intro{
+	padding-top: 60px;
+}
+.img{
+	width:220px;
+	cursor: pointer;
+}
+input#manifiesto{
+	height: 40px;
+	width: 220px;
+	padding:4px;
+	text-align: center;
+}
