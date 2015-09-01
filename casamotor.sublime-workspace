@@ -287,15 +287,15 @@
 			"file": "www/js/index.js",
 			"settings":
 			{
-				"buffer_size": 2071,
+				"buffer_size": 2099,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/C/Users/odc/Desktop/source/AndroidManifest.xml",
+			"file": "/C/Users/odc/Desktop/phonegap-print-plugin-master/phonegap-print-plugin-master/plugin.xml",
 			"settings":
 			{
-				"buffer_size": 1534,
+				"buffer_size": 1023,
 				"line_ending": "Unix"
 			}
 		},
@@ -376,6 +376,7 @@
 	],
 	"file_history":
 	[
+		"/C/Users/odc/Desktop/source/AndroidManifest.xml",
 		"/C/wamp/www/PrintNode-PHP-master/examples/composer.json",
 		"/D/Movilidad/CasaMotor/config.xml",
 		"/C/Users/odc/Desktop/config.xml",
@@ -502,8 +503,7 @@
 		"/D/Movilidad/Notification/www/js/app.js",
 		"/D/Movilidad/Notification/www/js/Controllers/NotificationsController.js",
 		"/D/Movilidad/Notification/www/js/Controllers/HomeController.js",
-		"/D/Movilidad/Notification/www/js/Services/NotificationService.js",
-		"/D/Movilidad/BuffetExpressPhoneGap/www/js/NotificationService.js"
+		"/D/Movilidad/Notification/www/js/Services/NotificationService.js"
 	],
 	"find":
 	{
@@ -714,15 +714,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2071,
+						"buffer_size": 2099,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1905,
-								1905
+								1918,
+								1918
 							]
 						],
 						"settings":
@@ -735,7 +735,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 600.0,
+						"translation.y": 731.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -743,19 +743,19 @@
 				},
 				{
 					"buffer": 1,
-					"file": "/C/Users/odc/Desktop/source/AndroidManifest.xml",
+					"file": "/C/Users/odc/Desktop/phonegap-print-plugin-master/phonegap-print-plugin-master/plugin.xml",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1534,
+						"buffer_size": 1023,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								299,
+								299
 							]
 						],
 						"settings":
@@ -764,7 +764,7 @@
 							"remote_loading": false,
 							"synced": false,
 							"syntax": "Packages/XML/XML.tmLanguage",
-							"tab_size": 4,
+							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
