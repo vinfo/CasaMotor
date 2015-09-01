@@ -284,18 +284,10 @@
 	"buffers":
 	[
 		{
-			"file": "www/bixolonprint.js",
+			"file": "config.xml",
 			"settings":
 			{
-				"buffer_size": 1161,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "www/index.html",
-			"settings":
-			{
-				"buffer_size": 475,
+				"buffer_size": 5459,
 				"line_ending": "Windows"
 			}
 		}
@@ -363,22 +355,20 @@
 	"expanded_folders":
 	[
 		"/D/Movilidad/CasaMotor",
-		"/D/Movilidad/CasaMotor/.settings",
-		"/D/Movilidad/CasaMotor/bin/com",
-		"/D/Movilidad/CasaMotor/bin/com/fit",
-		"/D/Movilidad/CasaMotor/src/com",
-		"/D/Movilidad/CasaMotor/src/com/fit",
-		"/D/Movilidad/CasaMotor/src/com/fit/printer",
 		"/D/Movilidad/CasaMotor/www"
 	],
 	"file_history":
 	[
+		"/D/Movilidad/CasaMotor/www/config.xml",
+		"/D/Movilidad/CasaMotor/www/js/index.js",
+		"/D/Movilidad/CasaMotor/config.xml",
+		"/D/Movilidad/CasaMotor/plugins/it.alfonsovinti.cordova.plugins.bixolonprint/src/android/BixolonPrint.java",
+		"/D/Movilidad/CasaMotor/plugins/it.alfonsovinti.cordova.plugins.bixolonprint/www/bixolonprint.js",
 		"/D/Movilidad/CasaMotor/www/index.html",
 		"/D/Movilidad/CasaMotor/www/bixolonprint.js",
 		"/D/Movilidad/CasaMotor/www/bixolonprinter.js",
 		"/D/Movilidad/CasaMotor/www/js/internal.js",
 		"/D/Movilidad/CasaMotor/www/views/impresion.html",
-		"/D/Movilidad/CasaMotor/www/config.xml",
 		"/D/Movilidad/CasaMotor/www/internal.html",
 		"/D/Movilidad/CasaMotor/www/js/bixolonprint.js",
 		"/D/Movilidad/CasaMotor/www/js/app.js",
@@ -386,7 +376,6 @@
 		"/D/Movilidad/Bixolon/sample/BixolonPrinterSample/bin/AndroidManifest.xml",
 		"/D/Movilidad/Bixolon/sample/BixolonPrinterSample/AndroidManifest.xml",
 		"/D/Movilidad/CasaMotor/www/views/scanner.html",
-		"/D/Movilidad/CasaMotor/www/js/index.js",
 		"/D/Movilidad/CasaMotor/www/views/placa.html",
 		"/C/Users/odc/Downloads/CasaMotor-23d57d031ac3bae0b1e75f02d7b2f12a4d448a9f/CasaMotor-23d57d031ac3bae0b1e75f02d7b2f12a4d448a9f/www/config.xml",
 		"/D/Movilidad/CasaMotor/www/config.json",
@@ -407,7 +396,6 @@
 		"/D/Movilidad/CasaMotor/views/scanner.html",
 		"/D/Movilidad/CasaMotor/css/internal.css",
 		"/D/Movilidad/CasaMotor/views/intro.html",
-		"/D/Movilidad/CasaMotor/config.xml",
 		"/D/Movilidad/CasaMotor/intro.html",
 		"/D/Movilidad/CasaMotor/manifiestos.html",
 		"/D/Movilidad/CasaMotor/index.html",
@@ -498,9 +486,7 @@
 		"/C/Users/odc/Downloads/AngularGap-945adcc640a2745d39a01d0dd8706fe3ceffc60a/www/js/Controllers/NotificationsController.js",
 		"/C/Users/odc/Downloads/AngularGap-945adcc640a2745d39a01d0dd8706fe3ceffc60a/www/js/Services/NotificationService.js",
 		"/C/Users/odc/Downloads/AngularGap-945adcc640a2745d39a01d0dd8706fe3ceffc60a/www/spec.html",
-		"/D/Movilidad/versionIconosBuffetExpressPhoneGap/config.xml",
-		"/D/Movilidad/BuffetExpressPhoneGap/www/images/fondoslide.jpg",
-		"/D/Movilidad/BuffetExpressPhoneGap/www/cache.manifest"
+		"/D/Movilidad/versionIconosBuffetExpressPhoneGap/config.xml"
 	],
 	"find":
 	{
@@ -702,24 +688,24 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "www/bixolonprint.js",
+					"file": "config.xml",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1161,
+						"buffer_size": 5459,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								285,
-								290
+								0,
+								0
 							]
 						],
 						"settings":
@@ -727,40 +713,9 @@
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"syntax": "Packages/XML/XML.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "www/index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 475,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								35,
-								35
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -857,7 +812,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 222.0,
+	"side_bar_width": 328.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
