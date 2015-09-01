@@ -125,7 +125,15 @@ var app = {
         bluetoothSerial.write(data, success, failure);
     },
     printData: function(event) { // send data to Arduino
-        alert("Imprimiendo");       
+        alert("Imprimiendo");
+        var impresionExito = function() {
+            alert("Ok");
+        };
+        var impresionFallo = function() {
+            alert("Fail");
+        };                
+        var data = “texto \r\n”;
+        bluetoothSerial.write(data, impresionExito, impresionFallo);     
     },    
     disconnect: function(event) {
         bluetoothSerial.disconnect(app.showMainPage, app.onError);
