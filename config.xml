@@ -68,7 +68,7 @@
     <gap:splash gap:platform="winphone" src="www/res/screen/windows-phone/screen-portrait.jpg" />
     <access origin="*" />
     <plugin name="cordova-plugin-whitelist" version="1" />
-    <gap:plugin name="it.alfonsovinti.cordova.plugins.bixolonprint" version="1.3.0" />
+    <gap:plugin name="com.megster.cordova.bluetoothserial" version="0.3.3" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
     <allow-intent href="tel:*" />

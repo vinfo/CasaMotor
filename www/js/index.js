@@ -45,26 +45,8 @@ var app = {
         receivedElement.setAttribute('style', 'display:block;');
 
 		try{
-		        // compose text
-		        cordova.plugins.bixolonPrint.addLine({
-		            text: "hello cordova!"
-		            textAlign: cordova.plugins.bixolonPrint.TextAlign.CENTER,
-		            fontStyle: cordova.plugins.bixolonPrint.FontStyle.BOLD
-		        });
-		        cordova.plugins.bixolonPrint.addHr();
-		        cordova.plugins.bixolonPrint.addLine("#@*èòçìàé€");
-		        // finally print
-		        cordova.plugins.bixolonPrint.printText(
-		            function (response) {
-		                alert("print success!")
-		            },
-		            function (error) {
-		                alert("print failure: " + error)
-		            },
-		            {
-		                codePage: cordova.plugins.bixolonPrint.CodePage.CP_1252_LATIN1
-		            }
-		        ); 
+		        alert(2);
+		        imprimirEjemplo();
 		}catch(err){
 			alert("error"+err);
 		}
@@ -73,3 +55,16 @@ var app = {
         console.log('Received Event: ' + id);
     }
 };
+
+function imprimirEjemplo() {
+bluetoothSerial.list(function(device) {
+bluetoothSerial
+.connect(device[0].address, conexionExito, conexionFallo);
+}, function() {
+
+});}
+
+function conexionExito() {
+	var data = “texto \r\n”;
+	bluetoothSerial.write(data, impresionExito, impresionFallo);
+}
