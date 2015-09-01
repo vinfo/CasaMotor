@@ -47,10 +47,11 @@
         try 
         {
             alert(1);
-            var type = "text/html";
-            var title = "test.html";
-            var fileContent = "<html>Phonegap Print Plugin</html>";
-            window.plugins.PrintPlugin.print(fileContent,function(){alert('success')},function(){alert('fail')},"",type,title);                
+            cordova.plugins.printer.isAvailable(
+                function (isAvailable) {
+                    alert(isAvailable ? 'Service is available' : 'Service NOT available');
+                }
+                );
             alert(2);
         }
         catch (err) 

@@ -71,7 +71,7 @@
    
 
     <plugin name="cordova-plugin-whitelist" version="1" />
-    <gap:plugin name="com.badrit.printplugin" version="0.1.0" />
+    <gap:plugin name="de.appplant.cordova.plugin.printer" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
     <allow-intent href="tel:*" />
