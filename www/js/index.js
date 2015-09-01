@@ -16,7 +16,7 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-var app = {
+ var app = {
     // Application Constructor
     initialize: function() {
         this.bindEvents();
@@ -45,35 +45,19 @@ var app = {
         receivedElement.setAttribute('style', 'display:block;');
 
         try 
-            {
-                alert(1);
-                // compose text
-                cordova.plugins.bixolonPrint.addLine({
-                    text: "hello cordova!"
-                    textAlign: cordova.plugins.bixolonPrint.TextAlign.CENTER,
-                    fontStyle: cordova.plugins.bixolonPrint.FontStyle.BOLD
-                });
-                cordova.plugins.bixolonPrint.addHr();
-                cordova.plugins.bixolonPrint.addLine("#@*èòçìàé€");
-                // finally print
-                cordova.plugins.bixolonPrint.printText(
-                    function (response) {
-                        alert("print success!")
-                    },
-                    function (error) {
-                        alert("print failure: " + error)
-                    },
-                    {
-                        codePage: cordova.plugins.bixolonPrint.CodePage.CP_1252_LATIN1
-                    }
-                );
-                alert(2);
-            }
-            catch (err) 
-            {   
-              alert("Error "+err);
-            }        
+        {
+            alert(1);
+            var type = "text/html";
+            var title = "test.html";
+            var fileContent = "<html>Phonegap Print Plugin</html>";
+            window.plugins.PrintPlugin.print(fileContent,function(){alert('success')},function(){alert('fail')},"",type,title);                
+            alert(2);
+        }
+        catch (err) 
+        {   
+          alert("Error "+err);
+      }        
 
-        console.log('Received Event: ' + id);
-    }
+      console.log('Received Event: ' + id);
+  }
 };
