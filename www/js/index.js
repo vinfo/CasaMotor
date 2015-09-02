@@ -1,70 +1,71 @@
-/*
- * Licensed to the Apache Software Foundation (ASF) under one
- * or more contributor license agreements.  See the NOTICE file
- * distributed with this work for additional information
- * regarding copyright ownership.  The ASF licenses this file
- * to you under the Apache License, Version 2.0 (the
- * "License"); you may not use this file except in compliance
- * with the License.  You may obtain a copy of the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing,
- * software distributed under the License is distributed on an
- * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
- * KIND, either express or implied.  See the License for the
- * specific language governing permissions and limitations
- * under the License.
- */
 var app = {
     // Application Constructor
     initialize: function() {
         this.bindEvents();
     },
-    // Bind Event Listeners
-    //
-    // Bind any events that are required on startup. Common events are:
-    // 'load', 'deviceready', 'offline', and 'online'.
     bindEvents: function() {
         document.addEventListener('deviceready', this.onDeviceReady, false);
     },
-    // deviceready Event Handler
-    //
-    // The scope of 'this' is the event. In order to call the 'receivedEvent'
-    // function, we must explicitly call 'app.receivedEvent(...);'
     onDeviceReady: function() {
-        app.receivedEvent('deviceready');
-    },
-    // Update DOM on a Received Event
-    receivedEvent: function(id) {
-        var parentElement = document.getElementById(id);
-        var listeningElement = parentElement.querySelector('.listening');
-        var receivedElement = parentElement.querySelector('.received');
-
-        listeningElement.setAttribute('style', 'display:none;');
-        receivedElement.setAttribute('style', 'display:block;');
-
-		try{
-		        alert(2);
-		        imprimirEjemplo();
-		}catch(err){
-			alert("error"+err);
-		}
-      
-
-        console.log('Received Event: ' + id);
-    }
+        //scanear();
+    }   
 };
-
-function imprimirEjemplo() {
-bluetoothSerial.list(function(device) {
-bluetoothSerial
-.connect(device[0].address, conexionExito, conexionFallo);
-}, function() {
-
-});}
-
-function conexionExito() {
-	var data = “texto \r\n”;
-	bluetoothSerial.write(data, impresionExito, impresionFallo);
-}
+$( document ).ready(function() {
+    if(localStorage.getItem("IP")!=""){
+      $("#IP").val(localStorage.getItem("IP"));
+      $("em").html(localStorage.getItem("IP"));
+    } 
+    $(".config").click(function() {
+      $(".pass").fadeIn();
+    });
+    $(".btn_submit").click(function() {
+      var id=$("#ID_USUARIO").val();
+      var pass=$("#PASSWORD").val();      
+    if(id!=""){      
+      if(id!="" && pass!=""){
+        $.getJSON( "config.json", function( json ) {          
+          if(json.user==id && json.pass==pass){            
+            $(".divconfig").fadeIn();
+          }
+        });
+        $(".load").hide();
+      }
+      if(id!=""&&pass==""){
+        var IP= localStorage.getItem("IP");
+        var data= "action=login&ID_USUARIO="+$("#ID_USUARIO").val();
+        jQuery.ajax({
+           type: 'POST',
+           url: "http://"+IP+"/casamotor/services.php",
+           crossDomain: true,
+           data: data,
+           dataType: 'json',
+           async: false, 
+           timeout: 10000, // 10 seconds
+          beforeSend:function(){
+            $(".load").show();
+          },           
+           success: function(res) {
+             if(res.msg){
+               window.location.href = "internal.html";
+             }else{
+              $(".load").hide();
+              $(".msg").show();
+             }            
+           },
+           error:function(request, status, error){
+             alert("Sistema no disponible en estos momentos.");
+             $(".load").hide();
+           }
+         });
+      }
+    }else{
+      $("#ID_USUARIO").css("background-color","#FBD5D0");
+    }
+    });    
+    $("#IP").change(function() {
+      localStorage.setItem("IP", $("#IP").val());
+      $("#IP").val(localStorage.getItem("IP")).css("background-color","#CFC");
+      $(".pass").fadeOut(); 
+      $("#PASSWORD").val(''); 
+    });
+  });
