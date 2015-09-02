@@ -24,21 +24,25 @@ manifiestosApp.config(['$routeProvider',
 
 manifiestosApp.controller('scannerController', function($scope) {
   $("#layout,#menu").removeClass("active");
+  if(localStorage.getItem("MSG"))$("#resultado").html(localStorage.getItem("MSG")).show();
   $scope.getScan = function (type) { 
     scanear();
+    $("#resultado").html(localStorage.getItem("MSG")).show();
     return false;
   }  
 });
 
 manifiestosApp.controller('placaController', function($scope) {
   $("#layout,#menu").removeClass("active");
+  if(localStorage.getItem("MSG"))$("#resultado").html(localStorage.getItem("MSG")).show();
+  $scope.setPhoto = function (type) { 
+    photo();
+    return false;
+  }  
 });
 
 manifiestosApp.controller('impresionController', function($scope) {
   $("#layout,#menu").removeClass("active");
-  $scope.sendPrint = function (type) { 
-    imprimir();
-    return false;
-  }
+  if(localStorage.getItem("MSG"))$("#resultado").html(localStorage.getItem("MSG")).show();
 });
 

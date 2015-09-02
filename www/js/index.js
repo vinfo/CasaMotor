@@ -7,10 +7,14 @@ var app = {
         document.addEventListener('deviceready', this.onDeviceReady, false);
     },
     onDeviceReady: function() {
-        //scanear();
     }   
 };
+
 $( document ).ready(function() {
+    $( document ).ajaxStart(function() {
+      $(".load").show();
+    });
+
     if(localStorage.getItem("IP")!=""){
       $("#IP").val(localStorage.getItem("IP"));
       $("em").html(localStorage.getItem("IP"));
@@ -41,9 +45,6 @@ $( document ).ready(function() {
            dataType: 'json',
            async: false, 
            timeout: 10000, // 10 seconds
-          beforeSend:function(){
-            $(".load").show();
-          },           
            success: function(res) {
              if(res.msg){
                window.location.href = "internal.html";
@@ -65,7 +66,7 @@ $( document ).ready(function() {
     $("#IP").change(function() {
       localStorage.setItem("IP", $("#IP").val());
       $("#IP").val(localStorage.getItem("IP")).css("background-color","#CFC");
-      $(".pass").fadeOut(); 
+      location.reload();
       $("#PASSWORD").val(''); 
     });
   });
